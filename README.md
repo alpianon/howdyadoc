@@ -22,7 +22,7 @@ The main aim of the project is to define **standard toolchains**
 
 **for specific purposes and scopes of use** (e.g. legal documents, academic publications, books, technical articles, etc.).
 
-Such standard toolchains may include pandoc filters or preprocessors that **extend the original pandoc/markdown syntax**, but always sticking to a fundamental principle: **keep the syntax simple and layman-readable!** (otherwise it would be make sense to use more structured and better standardized languages like LateX).  
+Such standard toolchains may include pandoc filters or preprocessors that **extend the original pandoc/markdown syntax**, but always sticking to a fundamental principle: **keep the syntax simple and layman-readable!** (otherwise it would be make sense to use more structured and better standardized languages like LaTeX).  
 
 ## 2. Provide packages to implement standard pandoc toolchains
 
