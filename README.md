@@ -4,9 +4,9 @@ This project stems from the need to **standardize and simplify the use of docume
 
 The aims of this project are:
 
-1. to define standard pandoc/markdown toolchains for specific purposes, 
+1. to define standard pandoc/markdown toolchains for specific purposes / scopes of use (legal, academia, etc.), 
 
-2. to provide installation packages to easily implement such toolchains, 
+2. to provide installation packages to easily implement such toolchains, and
 
 3. to document the "extended" markdown syntax that can be used in each toolchain/scope of use.  
 
