@@ -30,7 +30,7 @@ Toolchains should be easy to implement and use (and also to keep updated over ti
 
 This can be achieved by providing simple installation packages (typically, one for document processing and one for document editing and preview) to **easily implement standard pandoc toolchains** with a single command that installs any dependencies and that works **on different platforms (Linux, OSX, Windows)** (as easy as `pip install --user howdyadoc` and `apm install howdyadoc-atom`)
 
-## 3. Document the "extended" pandoc syntax for each toolchain/scope of use
+## 3. Document the extended markdown syntax for each toolchain/scope of use
 
 Combining different pandoc filters and preprocessors may allow you to do interesting things and to better structure your document, but such filter and preprocessors usually extend the original markdown syntax, and each of such filters and preprocessors has its own documentation - so information on usage of each toolchain is dispersed among different sources.
 
