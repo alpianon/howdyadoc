@@ -1,0 +1,49 @@
+#!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-FileCopyrightText: 2020 Alberto Pianon <pianon@array.eu>
+
+if [ -z "$1" ] || [ -z "$2" ] || [ "$1" == "-h" ]
+  then
+    echo
+    echo "Converter from markdown to odt/docx using howdyadoc-legal toolchain."
+    echo
+    echo "Usage: ${0##*/} MARKDOWN_FILE OUTPUT_FILE [REFERENCE_DOC]"
+    echo
+    echo "Output file type is determined by its extension - .odt or .docx"
+    echo "Comments are converted only in docx"
+    echo
+    exit 1
+fi
+
+MARKDOWN_FILE="$1"
+OUTPUT_FILE="$2"
+REFERENCE_DOC="$3"
+
+MUSTACHE=`sed -n '/---/,/---/p' "$MARKDOWN_FILE" | grep "^mustache:" | cut -d' ' -f2`
+# TODO: add support for multiple mustache yaml files
+
+BASENAME=`basename -- "$OUTPUT_FILE"`
+EXTENSION="${BASENAME##*.}"
+
+CMD="pp-include.pl \"$MARKDOWN_FILE\""
+
+if [[ ! -z "$MUSTACHE" ]]; then
+  CMD=$CMD" | mustache \"$MUSTACHE\" -"
+fi
+
+if [[ "$EXTENSION" == "docx" ]]; then
+  CMD=$CMD" | convert-html2docx-comments.pl"
+fi
+
+CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$OUTPUT_FILE\""
+
+if [[ ! -z $REFERENCE_DOC ]]; then
+  CMD=$CMD" --reference-doc=\"$REFERENCE_DOC\""
+fi
+
+echo
+echo "Executing:"
+echo $CMD
+echo
+
+eval $CMD
