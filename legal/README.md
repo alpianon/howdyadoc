@@ -34,9 +34,12 @@ Output file type is determined by its extension (.odt or .docx)
 
 Comments are converted only in docx
 
+## Convert to HTML snippets
+
+A template is provided in /templates. If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
+
 ## TODO
 
 - convert to pdf (via libreoffice)
-- convert to html snippet
 - add support for win/mac
 - write better documentation :)
