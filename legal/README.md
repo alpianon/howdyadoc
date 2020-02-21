@@ -7,6 +7,19 @@ It may be suitable also for academic documents.
 
 Any modern linux distribution; perl, pandoc, pandoc-crossref, mustache (any CLI implementation of mustache should work)
 
+Please make sure you have a recent version of pandoc (> 1.7, preferably > 2.0), as Ubuntu LTS installs a much older one.
+
+Please install all requirements before proceeding to the next steps. Pandoc-crossref **is not shipped** with pandoc on most distributions.  You can install it via
+
+```bash
+wget https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.4.1a/linux-pandoc_2_7_3.tar.gz
+
+tar -xf linux-pandoc_2_7_3.tar.gz
+
+sudo mv pandoc-crossref /usr/local/bin
+
+```
+
 ## Installation
 
 ```
