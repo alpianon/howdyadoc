@@ -26,17 +26,17 @@ Even with complex documents, preview is usually generated in less than 1 or 2 se
 
 It should work also with other markdown preview packages (and with other editors, too).
 
-## Convert to odt/docx
+## Convert to odt/docx/HTML
 
 `howdyadoc-legal-convert MARKDOWN_FILE OUTPUT_FILE [REFERENCE_DOC]`
 
-Output file type is determined by its extension (.odt or .docx)
+Output file type is determined by its extension (.odt, .docx or .html)
 
 Comments are converted only in docx
 
 ## Convert to HTML snippets
 
-A template is provided in /templates. If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
+While HTML does not require a template, a template is provided in [/templates](templates/html-snippet-template.html). If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
 
 ## TODO
 
