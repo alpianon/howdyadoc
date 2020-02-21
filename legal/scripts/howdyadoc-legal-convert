@@ -45,7 +45,7 @@ fi
 
 if [[ "$EXTENSION" == "html" ]]; then
 
-  if [[ ! -z $REFERENCE_DOC ]]; then
+  if [[ ! -z "$REFERENCE_DOC" ]]; then
 
   CMD=$CMD" --template=\"$REFERENCE_DOC\""
 
