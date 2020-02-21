@@ -41,11 +41,22 @@ It should work also with other markdown preview packages (and with other editors
 
 ## Convert to odt/docx
 
+The script takes three arguments:
+
+- the markdown file
+- the output file
+- (optional) the reference document (docx or odt template)
+
 `howdyadoc-legal-convert MARKDOWN_FILE OUTPUT_FILE [REFERENCE_DOC]`
 
 Output file type is determined by its extension (.odt or .docx)
 
-Comments are converted only in docx
+## Inline Comments
+
+Markdown comments (`<!-- like this -->`) are **converted** into side comments, but only in docx.
+
+You can put your own name as the author by including it between brackets (`<!-- (myname) like this -->`)
+
 
 ## TODO
 
