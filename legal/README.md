@@ -39,7 +39,7 @@ Even with complex documents, preview is usually generated in less than 1 or 2 se
 
 It should work also with other markdown preview packages (and with other editors, too).
 
-## Convert to odt/docx
+## Convert to odt/docx/HTML
 
 The script takes three arguments:
 
@@ -49,7 +49,7 @@ The script takes three arguments:
 
 `howdyadoc-legal-convert MARKDOWN_FILE OUTPUT_FILE [REFERENCE_DOC]`
 
-Output file type is determined by its extension (.odt or .docx)
+Output file type is determined by its extension (.odt, .docx or .html)
 
 ## Inline Comments
 
@@ -58,9 +58,12 @@ Markdown comments (`<!-- like this -->`) are **converted** into side comments, b
 You can put your own name as the author by including it between brackets (`<!-- (myname) like this -->`)
 
 
+## Convert to HTML snippets
+
+While HTML does not require a template, a template is provided in [/templates](templates/html-snippet-template.html). If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
+
 ## TODO
 
 - convert to pdf (via libreoffice)
-- convert to html snippet
 - add support for win/mac
 - write better documentation :)
