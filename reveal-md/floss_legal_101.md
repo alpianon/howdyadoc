@@ -94,14 +94,14 @@ Means *respect* conditions upon which you receive a Free Software *grant*
 Software Package Data Exchange
 
 * An open *standard* to communicate data about components, their licensing conditions and more
-* https://spdx.org/
+* <https://spdx.org/>
 
 ----
 
 ## Reuse
 
 * Tools and processes to make sure you offer simple and complete licensing information
-* https://reuse.software/
+* <https://reuse.software/>
 
 
 ----
@@ -131,7 +131,7 @@ Find more at <https://www.openchainproject.org/>
 
 ## Where to find help
 
-<!--frag-->FSFE's legal team https://fsfe.org/activities/ftf/activities.en.html
+<!--frag-->FSFE's legal team <https://fsfe.org/activities/ftf/activities.en.html>
 
 <!--frag--> Talk to us
 
@@ -141,7 +141,7 @@ Find more at <https://www.openchainproject.org/>
 
 ## Where to find out more (advertisement)
 
-![book piana](/assets/img/book_piana.jpg) <!-- .element: class="center-img" -->
+![book piana](assets/img/book_piana.jpg) <!-- .element: class="center-img" -->
 
 
 ---
@@ -158,6 +158,6 @@ Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflo
 
 </div>
 
+  [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
   [81aa3153]: https://revealjs.com/ "Reveal"
   [81aa3154]: https://daringfireball.net/projects/markdown/syntax
-  [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
