@@ -47,7 +47,7 @@ We use `----` as vertical separator for slides to enhance readability in html pr
 
 ### html template
 
-By using an html template and referring it in YAML front matter, we can:
+By using an [html template](assets/theme/array_white.html) and referring it in [YAML front matter](floss_legal_101.md), we can:
 
 - set **additional html metatata** (that cannot be set in reveal.js or reveal-md options), like `	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">`
 - set **different reveal.js and reveal-md options for each theme** (instead of setting them in reveal.json and reveal-md.json for *all* files and themes, or setting them in YAML front matter of *each* markdown file)
