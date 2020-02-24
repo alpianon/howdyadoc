@@ -136,6 +136,7 @@ Find more at <https://www.openchainproject.org/>
 ---
 
 ## Where to find help
+<!-- bkg -->link.jpg
 
 <!--frag-->FSFE's legal team <https://fsfe.org/activities/ftf/activities.en.html>
 

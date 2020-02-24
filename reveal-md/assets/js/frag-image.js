@@ -4,7 +4,7 @@ module.exports = (markdown, options) => {
       markdown
         .split('\n')
         .map((line, index) => {
-          return line.replace(/<!-- bkg --> (.*)$/g, '<!-- .slide:  data-background-image="assets/img/$1" -->');
+          return line.replace(/<!-- bkg -->\ ?(.*)$/g, '<!-- .slide:  data-background-image="assets/img/$1" -->');
         })
         .join('\n')
     );
