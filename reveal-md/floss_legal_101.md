@@ -20,7 +20,10 @@ Bolzano, 16 November 2019
 # Why?
 
 ---
-<!-- img --> questions.jpg
+<!-- bkg --> questions.jpg
+
+# test
+
 ---
 
 ## No Software Comes Without Licence Tag
@@ -148,7 +151,7 @@ Find more at <https://www.openchainproject.org/>
 
 
 ---
-<!-- img --> thanks.jpg
+<!-- bkg --> thanks.jpg
 
 ## Thank you!
 
