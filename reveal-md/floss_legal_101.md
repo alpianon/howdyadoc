@@ -22,7 +22,12 @@ Bolzano, 16 November 2019
 ---
 <!-- bkg --> questions.jpg
 
-# test
+# A Background pic
+
+----
+<!-- bkg --> thanks.jpg
+
+# A background pic in a vertical slide
 
 ---
 
@@ -136,7 +141,6 @@ Find more at <https://www.openchainproject.org/>
 ---
 
 ## Where to find help
-<!-- bkg -->link.jpg
 
 <!--frag-->FSFE's legal team <https://fsfe.org/activities/ftf/activities.en.html>
 

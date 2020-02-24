@@ -4,7 +4,7 @@
 
 - use reveal-md to display, print (pdf) and convert to static html markdown presentations
 - full markdown presentations, with no (or only little) html
-- easily readable markdown source 
+- easily readable markdown source
 - setting theme and options by selecting a single template file (which also allows to set html metadata eg. for apple devices)
 
 ## Requirements
@@ -14,11 +14,11 @@
 
 ## Usage
 
-`reveal-md --preprocessor assets/js/frag-pp.js floss_legal_101.md -w`
+`reveal-md --preprocessor assets/js/frag-image.js floss_legal_101.md -w`
 
 or
 
-`reveal-md --preprocessor assets/js/frag-pp.js ./ -w`
+`reveal-md --preprocessor assets/js/frag-image.js ./ -w`
 
 
 ## Syntax
@@ -43,6 +43,18 @@ trick:
 
 We use `----` as vertical separator for slides to enhance readability in html preview (it is displayed as a line)
 
+### background images
+
+You can replace the standard background with a full screen image. There's a snippet also for that. Just put as the first line after the slide marker:
+
+```
+---
+<!-- bkg --> image.jpg
+
+```
+Where `image.jpg` is in assets/img
+
+
 ## Styling
 
 ### html template
@@ -53,7 +65,7 @@ By using an [html template](assets/theme/array_white.html) and referring it in [
 - set **different reveal.js and reveal-md options for each theme** (instead of setting them in reveal.json and reveal-md.json for *all* files and themes, or setting them in YAML front matter of *each* markdown file)
 - (**TODO**) set custom css for printing to pdf (not sure it can be done via reveal-md CLI arguments)
 
-## reveal.js files 
+## reveal.js files
 
 If you need to use reveal.js CSS files, you do not need to duplicate them: just reference them using their "absolute" path with respect to reveal.js "root" folder, eg.:
 
@@ -67,6 +79,3 @@ Instead, if you need to reference files within your directory structure, use rel
 .slide-background {
   background-image: url(../img/logo_array.png); }
 ```
-
-
-
