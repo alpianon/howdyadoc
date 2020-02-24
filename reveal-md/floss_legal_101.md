@@ -20,13 +20,16 @@ Bolzano, 16 November 2019
 # Why?
 
 ---
+<!-- img --> questions.jpg
+---
+
 ## No Software Comes Without Licence Tag
 
 You think that because there is no licensing condition attached to the software, there is no restriction? **Think better!**
 
 - <!--frag--> Full copyright is by *default*
 - <!--frag--> Seek license                 
-- <!--frag--> Without a licence (or *license*), you are stuck with statutory provisions 
+- <!--frag--> Without a licence (or *license*), you are stuck with statutory provisions
 
 ---
 ## Inbound vs Outbound Licensing, derivative software
@@ -35,7 +38,7 @@ Nobody writes software from scratch!
 
 - <!--frag--> You take some code
 - <!--frag--> That code has its own conditions
-- <!--frag--> Conditions of software you are reusing is called **inbound** 
+- <!--frag--> Conditions of software you are reusing is called **inbound**
 - <!--frag--> Conditions of software you are *distributing* is called **outbound**
 - <!--frag--> If software contains substantial fragments of other software, it is a **derivative**.
 - <!--frag--> Derivative software needs permission from the original(s)
@@ -82,7 +85,7 @@ Means *respect* conditions upon which you receive a Free Software *grant*
 ## Different strategies
 
 
-- <!--frag--> SPDX, Reuse 
+- <!--frag--> SPDX, Reuse
 - <!--frag--> Standards procedures (OpenChain)
 - <!--frag--> Scanning
 
@@ -120,7 +123,7 @@ Find more at <https://www.openchainproject.org/>
 - <!--frag--> Only for more complex projects, with many packages
 - <!--frag--> Two goals:
   - <!--frag--> "find cheaters"
-  - <!--frag--> find accurate licensing information in the text and record them 
+  - <!--frag--> find accurate licensing information in the text and record them
 - <!--frag--> Most popular: **Fossology** (open source project)
 - <!--frag--> Needs to be included in CD/CI:
 - <!--frag--> CD/CI/**CC** <!--frag-->
