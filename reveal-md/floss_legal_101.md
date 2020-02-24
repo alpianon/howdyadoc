@@ -20,7 +20,12 @@ Bolzano, 16 November 2019
 # Why?
 
 ---
-<!-- bkg --> questions.jpg
++questions.jpg
+---
++link.jpg
+---
++fruit-1222428_1280.png
+---
 
 # A Background pic
 
