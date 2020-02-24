@@ -148,6 +148,7 @@ Find more at <https://www.openchainproject.org/>
 
 
 ---
+<!-- img --> thanks.jpg
 
 ## Thank you!
 
