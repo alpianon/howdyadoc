@@ -20,18 +20,14 @@ Bolzano, 16 November 2019
 # Why?
 
 ---
-+questions.jpg
----
-+link.jpg
----
-+fruit-1222428_1280.png
----
 
++questions.jpg
+
+---
 # A Background pic
 
 ----
-<!-- bkg --> thanks.jpg
-
+<!-- bkg questions.jpg-->
 # A background pic in a vertical slide
 
 ---
@@ -102,7 +98,6 @@ Means *respect* conditions upon which you receive a Free Software *grant*
 - <!--frag--> Standards procedures (OpenChain)
 - <!--frag--> Scanning
 
-
 ----
 
 ## SPDX
@@ -113,12 +108,12 @@ Software Package Data Exchange
 * <https://spdx.org/>
 
 ----
+<!-- .slide: data-transition="zoom" -->
 
 ## Reuse
 
 * Tools and processes to make sure you offer simple and complete licensing information
 * <https://reuse.software/>
-
 
 ----
 
@@ -161,7 +156,7 @@ Find more at <https://www.openchainproject.org/>
 
 
 ---
-<!-- bkg --> thanks.jpg
+<!-- bkg thanks.jpg-->
 
 ## Thank you!
 
@@ -171,7 +166,7 @@ Find more at <https://www.openchainproject.org/>
 
 This work is licensed under a [Creative Commons - zero International License][CC0]
 
-Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow
+Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow with [reveal-md](https://github.com/webpro/reveal-md)
 
 </div>
 
