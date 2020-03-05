@@ -35,11 +35,32 @@ if [[ "$EXTENSION" == "docx" ]]; then
   CMD=$CMD" | convert-html2docx-comments.pl"
 fi
 
+
+
 CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$OUTPUT_FILE\""
 
-if [[ ! -z $REFERENCE_DOC ]]; then
+if [[ ! -z "$REFERENCE_DOC" ]]; then
+
+  if [[ "$EXTENSION" == "html" ]]; then
+
+  CMD=$CMD" --template=\"$REFERENCE_DOC\""
+
+  fi
+
+  if [ "$EXTENSION" == "docx" ] || [ "$EXTENSION" == "odt" ]; then
+
   CMD=$CMD" --reference-doc=\"$REFERENCE_DOC\""
+
+  fi
+
+else
+    echo ""
+    echo "+******************************************************+"
+    echo "! no template provided, standard template is used      !"
+    echo "+******************************************************+"
+
 fi
+
 
 echo
 echo "Executing:"
