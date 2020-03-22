@@ -15,9 +15,33 @@ if [ -z "$1" ] || [ -z "$2" ] || [ "$1" == "-h" ]
     exit 1
 fi
 
+BUILD_DIR="build"
 MARKDOWN_FILE="$1"
 OUTPUT_FILE="$2"
 REFERENCE_DOC="$3"
+
+touch .gitignore # make sure .gitignore exists, even if empty
+
+if [ ! -d "$BUILD_DIR" ]
+  then
+    echo "creating build dir"
+    mkdir $BUILD_DIR
+  fi
+
+
+if ! grep -q "$BUILD_DIR/" .gitignore; then
+    echo "$BUILD_DIR/" >> .gitignore
+fi
+
+echo ""
+echo "+**********************************************+"
+echo ""
+echo " Produced files will be put in ./$BUILD_DIR         "
+echo ""
+echo " .$BUILD_DIR/ will be ignored by git!"
+echo ""
+echo "+**********************************************+"
+echo ""
 
 MUSTACHE=`sed -n '/---/,/---/p' "$MARKDOWN_FILE" | grep "^mustache:" | cut -d' ' -f2`
 # TODO: add support for multiple mustache yaml files
@@ -37,7 +61,7 @@ fi
 
 
 
-CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$OUTPUT_FILE\""
+CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$BUILD_DIR/$OUTPUT_FILE\""
 
 if [[ ! -z "$REFERENCE_DOC" ]]; then
 
@@ -62,9 +86,10 @@ else
 fi
 
 
-echo
-echo "Executing:"
-echo $CMD
-echo
+#
+# echo
+# echo "Executing:"
+# echo $CMD
+# echo
 
 eval $CMD
