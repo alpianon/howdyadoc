@@ -61,7 +61,7 @@ fi
 
 
 
-CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$BUILD_DIR/$OUTPUT_FILE\""
+CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --columns 10 --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$BUILD_DIR/$OUTPUT_FILE\""
 
 if [[ ! -z "$REFERENCE_DOC" ]]; then
 
