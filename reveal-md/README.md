@@ -49,11 +49,21 @@ You can replace the standard background with a full screen image. There's a snip
 
 ```
 ---
-<!-- bkg --> image.jpg
+<!-- bkg image.jpg -->
 
 ```
 Where `image.jpg` is in assets/img
 
+### Image-only slides
+
+If your content *is* the image, you can also put it (so it remains visible in the "preview") as the only content of the slide with `+` like this:
+
+```
+---
++image.jpg
+```
+
+(works with jpg, webp, png, svg)
 
 ## Styling
 
