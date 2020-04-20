@@ -116,7 +116,8 @@ https://array.eu
 - Modelli misti
 
 ---
-
+# Software libero / Open Source
+---
 ## Licenze pubbliche
 
 - Permesso dato a chiunque
@@ -124,6 +125,7 @@ https://array.eu
   - One-to-many
   - Anche all'insaputa (!)
 - Direttamente nel codice
+- <!--frag--> Cosa contiene una licenza pubblica per essere Open Source?
 
 ---
 
@@ -142,6 +144,10 @@ https://array.eu
 - "Certifica" l'aderenza delle singole licenze all'OSD
 - "Open Source" a rigore è solo "OSD-compliant"
 - Open Source o Software Libero? (cenni)
+
+---
+
+# Il Copyleft @fa[copyright fa-flip-horizontal]
 
 ---
 
@@ -193,6 +199,7 @@ Copyleft (@fa[copyright fa-spin fa-red])  Copyright reversed
 - Nel software?
 
 ---
+
 <!--bkg--> link.jpg
 
 # Linking
@@ -329,8 +336,9 @@ Le licenze open source possono essere raggruppate per l'intensità del copyleft:
 - **Open Chain** [project][a013520c]
   - leggera
   - creata dalla Linux Foundation
-  - Traduzione in italiano (la sto facendo...)
-  - "interfacce" standard.
+  - Traduzione in italiano (sono co-autore)
+  - "interfacce" standard
+  - toolchain, processi, certificazioni, dizionari
 - Elementi di compliance interna (altri processi, procedure)
 - Utilizzo di [SPDX](https://spdx.org/) Per automatizzare le informazioni delle licenze
 
@@ -348,7 +356,9 @@ Community can screw up pretty bad
 - Developer's Certificate of Origin (**DCO**)
   - embeddable in Github
 
----?image=assets/questions.jpg
+---
+
+<!-- bkg --> questions.jpg
 
 <!-- .element class="dom" -->
 # @fa[question-circle] Domande
@@ -422,27 +432,24 @@ Community can screw up pretty bad
   - "_have the cake and eat it_"
 
 
----?image=assets/questions.jpg
+---
+<!-- bkg --> questions.jpg
 
 <!-- .element class="dom" -->
 # @fa[question-circle] Domande
 
----?image=assets/thanks.jpg
-<!-- .slide: data-background-transition="none" -->
+---
+
+## Dove trovare altre info (pubblicità)
+
+![book piana](assets/img/book_piana.jpg) <!-- .element: class="center-img" -->
+
+---
+<!-- .slide: data-background-transition=" fade-in" -->
+<!-- bkg --> thanks.jpg
 
 # Grazie
 <div class="bottom">
-per approfondimenti:  
-
-[Brevi cenni sull'universo (aperto)](http://www.techeconomy.it/2015/09/11/brevi-cenni-sulluniverso-aperto/)  
-
-[Licenze di software libero e modelli di business](http://www.techeconomy.it/2015/12/04/licenze-software-libero-modelli-business/)  
-
-[Una breve storia personale del software libero (open source)](http://www.techeconomy.it/2015/10/14/breve-storia-personale-software-libero-open-source/)  
-
-[Le licenze di software libero (open source)](http://www.techeconomy.it/2015/11/13/licenze-software-libero-open-source/)  
-
-</div>
 
 ---
 
@@ -450,15 +457,6 @@ per approfondimenti:
 @fa[copyright fa-red fa-lg] 2020 - Carlo Piana (some rights reserved)   
 Licenza Creative Commons by-SA 4.0 unported.  
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.  
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4 .0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.  
 
 Le immagini sono tutte in pubblico dominio / CC-0 tranne l'immagine della fotocopiatrice Xerox
-
-Presentazione realizzata con [Gitpitch](https://gitpitch.com/) e [Reveal.js][81aa3153]
-</div>
-
-<div class="borderless">
-![Logo](assets/logo_array.png)
-</div>
-
-  [81aa3153]: https://revealjs.com/ "Reveal"
