@@ -4,9 +4,9 @@ module.exports = (markdown, options) => {
       markdown
         .split('\n')
         .map((line, index) => {
-          return line.replace(/<!--\ ?bkg\ (.*)\.(jpg|png|svg|webp)-->$/g, '<!-- .slide:  data-background-image="assets/img/$1.$2" -->')
-          .replace(/^\+(.*\.)(jpg|png|svg|webp)/g, '<!-- .slide:  data-background-image="assets/img/$1$2" -->')
-          .replace(/<!--\ ?frag\ ?-->/g, '&shy;<!-- .element: class="fragment" -->');
+          return line.replace(/<!--\ ?bkg\ ?-->\ ?(.*)$/g, '<!-- .slide:  data-background-image="assets/img/$1" -->')
+          .replace(/<!--\ ?frag\ ?-->/g, '&shy;<!-- .element: class="fragment" -->')
+          .replace(/@fa\[(.*?)\]/g, '<i class="fa fa-$1"></i>');
         })
         .join('\n')
     );
