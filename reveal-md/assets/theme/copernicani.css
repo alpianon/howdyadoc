@@ -5,7 +5,7 @@
  *
  * AND on the new_white theme (Array theme)
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -346,7 +346,7 @@ body {
   color: #0FBE7C; }
 
 .slide-background {
-  background-image: url(copernicani.png);
+  background-image: url(../img/copernicani.png);
   background-size: 18%;
   background-repeat: no-repeat;
   background-position: top 3px left 2%; }
