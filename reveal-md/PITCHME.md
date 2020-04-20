@@ -37,13 +37,13 @@ https://array.eu
 ## Copyright
 
 - Un diritto armonizzato:
-  - nel mondo
+  - nel mondo @fa[globe fa-strong]
     - <!--frag--> Convenzione di Berna
     - <!--frag--> Convenzioni WIPO
-  - In Europa  
+  - <!--frag--> In Europa  
     - <!--frag--> Direttiva Infosoc (1991)
     - <!--frag--> Direttiva Software (ultima: 2009)
-  - In Italia
+  - <!--frag--> In Italia
     - <!--frag--> Legge sul Diritto d'Autore (**LDA**)
     - <!--frag--> Art. 64bis-quater LDA, Art. 171 bis LDA
 
@@ -62,9 +62,10 @@ https://array.eu
 
 ## Cosa protegge il Copyright
 
-- opere originali
-- <!--frag--> elaborazioni originali di opere originali
-- <!--frag--> NON protegge l'idea in sé
+- opere **originali**
+- <!--frag--> **elaborazioni originali** di opere originali
+- <!--frag--> Non protegge l'idea in sé
+- <!--frag--> Non protegge **fatti**
 
 
 ----
@@ -84,14 +85,14 @@ https://array.eu
 - Studi osservazionali
   - <!--frag--> Sempre ammessi
   - <!--frag--> Possibile ricreare un clone funzionale
-- <!--frag--> Decompilazione
+- <!--frag--> Decompilazione @fa[exclamation-triangle fa-red fragment]
   - <!--frag--> Possibile a certe condizioni (art 64 quater LDA)
 
 ---
 
 ## Brevetti
 
-- teoricamente, non ammessi
+- Teoricamente, non ammessi
   - Art. 52.2(c) European Patent Convention
   - Ma solo "as such" (Art. 52.3)
 - Di fatto ampiamente concessi
@@ -100,9 +101,9 @@ https://array.eu
 ---
 <!-- bkg --> questions.jpg
 
-<div class="dom">
-<h1>Domande?</h1>
-</div>
+
+<!-- .element class="dom" -->
+# @fa[question-circle] Domande
 
 ---
 
@@ -112,6 +113,7 @@ https://array.eu
 - Vendita
 - SaaS/PaaS ecc. (servizi)
 - Software libero / Open source
+- Modelli misti
 
 ---
 
@@ -134,7 +136,7 @@ https://array.eu
 
 ---
 
-## Open source definition
+## Open source definition (OSD)
 
 - Gestita da OSI (Open Source Initiative)
 - "Certifica" l'aderenza delle singole licenze all'OSD
@@ -157,7 +159,7 @@ A printer...
 ---
 ![](assets/img/lock_copyleft.jpg) <!-- .element: class="center-img" -->
 
-Copyleft (<i class="fa fa-copyright fa-flip-horizontal fa-strong"></i>)  Copyright reversed
+Copyleft (@fa[copyright fa-spin fa-red])  Copyright reversed
 
 ---
 
@@ -174,9 +176,9 @@ Copyleft (<i class="fa fa-copyright fa-flip-horizontal fa-strong"></i>)  Copyrig
 
 ## Condizioni copyleft (principali)
 
-- Condividere il **codice sorgente ** (senza costi aggiuntivi, senza altre condizioni)
-- Opere derivate sotto la **stessa licenza** dell'originale
-- **Copia** della licenza
+- Condividere il **codice sorgente** (senza costi aggiuntivi, senza altre condizioni)
+- Opere *derivate* sotto la **stessa licenza** dell'originale *("share alike")*
+- Fornire **copia** della licenza
 
 ---
 
@@ -194,7 +196,6 @@ Copyleft (<i class="fa fa-copyright fa-flip-horizontal fa-strong"></i>)  Copyrig
 <!--bkg--> link.jpg
 
 # Linking
-
 
 ----
 
@@ -263,10 +264,9 @@ Le licenze open source possono essere raggruppate per l'intensità del copyleft:
 
 ---
 <!-- bkg --> questions.jpg
-<div class="dom">
-<h1>Domande?</h1>
-</div>
 
+<!-- .element class="dom" -->
+# @fa[question-circle] Domande
 ---
 
 # Compliance
@@ -350,13 +350,12 @@ Community can screw up pretty bad
 
 ---?image=assets/questions.jpg
 
-<div class="dom">
-<h1>Domande?</h1>
-</div>
+<!-- .element class="dom" -->
+# @fa[question-circle] Domande
 
 ---
 
-# Interazioni licenze @fa[arrow-down] modelli di business
+# Interazioni licenze @fa[arrow-right] modelli di business
 
 ----
 
@@ -425,9 +424,8 @@ Community can screw up pretty bad
 
 ---?image=assets/questions.jpg
 
-<div class="dom">
-<h1>Domande?</h1>
-</div>
+<!-- .element class="dom" -->
+# @fa[question-circle] Domande
 
 ---?image=assets/thanks.jpg
 <!-- .slide: data-background-transition="none" -->
@@ -449,7 +447,7 @@ per approfondimenti:
 ---
 
 <div class="bottom">
-@fa[copyright fa-red] 2017 - Carlo Piana (some rights reserved)   
+@fa[copyright fa-red fa-lg] 2020 - Carlo Piana (some rights reserved)   
 Licenza Creative Commons by-SA 4.0 unported.  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.  
