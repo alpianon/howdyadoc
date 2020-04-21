@@ -65,6 +65,27 @@ If your content *is* the image, you can also put it (so it remains visible in th
 
 (works with jpg, webp, png, svg)
 
+### Font Awesome
+
+Revealjs uses [Font Awesome](https://fontawesome.com/) for special characters. [GitPitch](https://gitpitch.com/) uses a convention like @fa[arguments class1 class2]. We have used the same convention to make them available.
+
+Some examples:
+
+```markdown
+@fa[arrow-right]
+@fa[check fa-green]
+@fa[copyright fa-flip-horizontal]
+@fa[copyright fa-spin fa-red]
+@fa[exclamation-triangle fa-red]
+@fa[exclamation-triangle fa-red fragment]
+@fa[globe fa-strong]
+@fa[question-circle]
+
+```
+
+![](images/2020/04/font-awesome-examples.png)
+
+
 ## Styling
 
 ### html template
@@ -88,4 +109,15 @@ Instead, if you need to reference files within your directory structure, use rel
 ```
 .slide-background {
   background-image: url(../img/logo_array.png); }
+```
+
+## Printing handouts
+
+PDF can be generated on the fly without relying on a browser. Currently, `reveal-md` fails the install of `puppeteer`, a required component that can be installed by hand, but we cannot provide install instructions at the moment.
+
+The command line is
+
+```shell
+reveal-md --preprocessor assets/js/frag-image.js \
+namefile.md --print-slides [--prit-size arguments]
 ```
