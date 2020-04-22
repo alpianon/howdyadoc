@@ -21,8 +21,8 @@ Bolzano, Internet, 25 aprile 2020
 
 Il trattamento deve basarsi su una base giuridica:
 
-- <span class="fragment highlight-red">consenso</span>
-- <span class="fragment highlight-bold">contratto</span>
+- <span class="fragment highlight-bold">consenso</span>
+- contratto
 - obbligo di legge
 - interesse vitale di un terzo
 - interesse prevalente del titolare
@@ -31,7 +31,7 @@ Il trattamento deve basarsi su una base giuridica:
 
 # Consenso
 
-- <span class="fragment highlight-red">Libero</span>
+- <span class="fragment highlight-bold">Libero</span>
 - Espresso
 - Informato
 
@@ -48,9 +48,9 @@ Il trattamento deve basarsi su una base giuridica:
 
 # Consenso Libero
 
-> The element “free” implies real choice and control for data subjects. As a general rule, the GDPR
-prescribes that if the data subject has no real choice, feels compelled to consent or will endure
-negative consequences if they do not consent, then consent **will not be valid**.
+> The element “*free*” <!--frag highlight-bold--> implies *real choice* <!--frag highlight-bold--> and control for data subjects. As a general rule, the GDPR
+> prescribes that if the data subject has no real choice, *feels compelled*<!--frag highlight-bold--> to consent or will endure
+*negative consequences*<!--frag highlight-bold--> if they do not consent, then consent *will not be valid*.<!--frag highlight-bold-->
 
 ----
 
@@ -71,14 +71,14 @@ and the data subject is also taken into consideration by the GDPR.
 # Applichiamo alle piattaforme
 
 - <!--frag fade-in-then-semi-out --> La classe adotta una piattaforma
-- <!--frag--> Questa Piattaforma è una per tutti
+- <!--frag fade-in-then-semi-out --> Questa Piattaforma è una per tutti
 - <!--frag--> Questa piattaforma trasferisce i dati **a terzi** <!--frag-->
 - <!--frag--> Serve un **Consenso specifico** <!--frag-->
-- <!--frag--> Cosa succede se uno studente nega?
+- <!--frag--> Cosa succede se uno studente nega? @fa[exclamation-triangle fa-red fragment]
 
 ----
 
-# Una proposta che non si può rifiutare
+## Una proposta che non si può rifiutare
 
 ![](assets/img/thegodfather.jpg)<!--frag fade-right center-img-large -->
 
@@ -93,16 +93,19 @@ and the data subject is also taken into consideration by the GDPR.
 ---
 # Cosa fare?
 
-- Voto unanime e segreto **(?)** <!--frag-->
+- Voto unanime e segreto @fa[question-circle fa-red fragment ]
 - <!--frag--> Non mettere lo studente in condizioni di dover accettare
 - <!--frag--> Soluzioni alternative: **self hosted** <!--frag-->
 - <!--frag--> Se non possibile (?!), offrire almeno alternative (ma ve ne sono? È fattibile?)
 
 ---
-## Noi abbiamo lavorato a Jitsi self-hosted
+## Esempi
 
-<https://jitsi-club.gitlab.io/jitsi-self-hosting/en/>
+<!--frag--> Noi abbiamo lavorato a Jitsi self-hosted (Documentazione)
 
+<!--frag--> <https://jitsi-club.gitlab.io/jitsi-self-hosting/en/>
+
+<!--frag--> Questo servizio da cui parliamo ([BBB](https://bigbluebutton.org/))<!--frag-->
 ---
 <!-- bkg thanks.jpg-->
 
