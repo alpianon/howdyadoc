@@ -45,8 +45,6 @@ Fragments support classes like:
 <!--frag fade-in-then-semi-out-->
 ```
 
-<<<<<<< HEAD
-=======
 Available classes in revealjs are:
 
 ```
@@ -63,13 +61,12 @@ fade-right
 fade-left
 current-visible
 fade-in-then-semi-out
+fade-in-then-out
 highlight-blue <!-- red green  -->
 
 ```
 
 Other can be created in the template.
-
->>>>>>> 3791ef861d8ac6bb523fc0dc2c3eb7008a8a78cf
 
 ### vertical separator
 
@@ -148,7 +145,13 @@ Instead, if you need to reference files within your directory structure, use rel
 
 ## Printing handouts
 
-PDF can be generated on the fly without relying on a browser. Currently, `reveal-md` fails the install of `puppeteer`, a required component that can be installed by hand, but we cannot provide install instructions at the moment.
+PDF can be generated on the fly without relying on a browser. Currently, `reveal-md` fails the install of `puppeteer`, a required component that can be installed by hand
+
+```shell
+sudo npm install -g puppeteer --unsafe-perm=true
+```
+
+*(warning: "unsafe-perm" looks bad, but anyway...)*
 
 The command line is
 
