@@ -39,6 +39,35 @@ trick:
 - <!--frag--> First you will see this **and after you will see this** <!--frag-->
 ```
 
+Fragments support classes like:
+
+```
+<!--frag fade-in-then-semi-out-->
+```
+
+Available classes in revealjs are:
+
+```
+visible
+grow
+shrink
+zoom-in
+fade-out
+semi-fade-out
+strike
+fade-up
+fade-down
+fade-right
+fade-left
+current-visible
+fade-in-then-semi-out
+highlight-blue <!-- red green  -->
+
+```
+
+Other can be created in the template.
+
+
 ### vertical separator
 
 We use `----` as vertical separator for slides to enhance readability in html preview (it is displayed as a line)
@@ -67,7 +96,9 @@ If your content *is* the image, you can also put it (so it remains visible in th
 
 ### Font Awesome
 
-Revealjs uses [Font Awesome](https://fontawesome.com/) for special characters. [GitPitch](https://gitpitch.com/) uses a convention like @fa[arguments class1 class2]. We have used the same convention to make them available.
+Revealjs uses [Font Awesome](https://fontawesome.com/) icons for special characters. [GitPitch](https://gitpitch.com/) uses a convention like @fa[arguments class1 class2]. We have used the same convention to make them available. Note that `fragment` is a class that can be added, and the icon will be made a fragment item.
+
+We also have fa-red and fa-green as CSS classes to change color.
 
 Some examples:
 
@@ -82,6 +113,7 @@ Some examples:
 @fa[question-circle]
 
 ```
+Will render like:
 
 ![](images/2020/04/font-awesome-examples.png)
 
