@@ -70,7 +70,7 @@ and the data subject is also taken into consideration by the GDPR.
 ---
 # Applichiamo alle piattaforme
 
-- <!--frag--> La classe adotta una piattaforma
+- <!--frag fade-in-then-semi-out --> La classe adotta una piattaforma
 - <!--frag--> Questa Piattaforma è una per tutti
 - <!--frag--> Questa piattaforma trasferisce i dati **a terzi** <!--frag-->
 - <!--frag--> Serve un **Consenso specifico** <!--frag-->
@@ -80,7 +80,8 @@ and the data subject is also taken into consideration by the GDPR.
 
 # Una proposta che non si può rifiutare
 
-<img class="center-img-large" src="assets/img/thegodfather.jpg" />
+![](assets/img/thegodfather.jpg)<!--frag fade-right center-img-large -->
+
 
 ---
 ## Coseguenze
@@ -98,9 +99,9 @@ and the data subject is also taken into consideration by the GDPR.
 - <!--frag--> Se non possibile (?!), offrire almeno alternative (ma ve ne sono? È fattibile?)
 
 ---
-# Noi abbiamo lavorato a Jitsi self-hosted
+## Noi abbiamo lavorato a Jitsi self-hosted
 
-<!-- .slide:  data-background-iframe="https://jitsi-club.gitlab.io/jitsi-self-hosting/en/"  -->
+<https://jitsi-club.gitlab.io/jitsi-self-hosting/en/>
 
 ---
 <!-- bkg thanks.jpg-->

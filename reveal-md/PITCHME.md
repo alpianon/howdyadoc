@@ -99,11 +99,11 @@ https://array.eu
 - In certe aree (audio/video, per esempio) sono un problema da affrontare
 
 ---
-<!-- bkg --> questions.jpg
+<!-- bkg questions.jpg-->
 
 
 <!-- .element class="dom" -->
-# @fa[question-circle] Domande
+# &nbsp;@fa[question-circle] Domande
 
 ---
 
@@ -200,7 +200,7 @@ Copyleft (@fa[copyright fa-spin fa-red])  Copyright reversed
 
 ---
 
-<!--bkg--> link.jpg
+<!-- bkg link.jpg-->
 
 # Linking
 
@@ -270,10 +270,10 @@ Le licenze open source possono essere raggruppate per l'intensità del copyleft:
 
 
 ---
-<!-- bkg --> questions.jpg
+<!-- bkg questions.jpg-->
 
 <!-- .element class="dom" -->
-# @fa[question-circle] Domande
+# &nbsp;@fa[question-circle] Domande
 ---
 
 # Compliance
@@ -358,10 +358,10 @@ Community can screw up pretty bad
 
 ---
 
-<!-- bkg --> questions.jpg
+<!-- bkg questions.jpg-->
 
 <!-- .element class="dom" -->
-# @fa[question-circle] Domande
+# &nbsp;@fa[question-circle] Domande
 
 ---
 
@@ -433,10 +433,10 @@ Community can screw up pretty bad
 
 
 ---
-<!-- bkg --> questions.jpg
+<!-- bkg questions.jpg-->
 
 <!-- .element class="dom" -->
-# @fa[question-circle] Domande
+# &nbsp;@fa[question-circle] Domande
 
 ---
 
@@ -446,7 +446,7 @@ Community can screw up pretty bad
 
 ---
 <!-- .slide: data-background-transition=" fade-in" -->
-<!-- bkg --> thanks.jpg
+<!-- bkg thanks.jpg-->
 
 # Grazie
 <div class="bottom">
