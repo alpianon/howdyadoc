@@ -45,7 +45,7 @@ Fragments support classes like:
 <!--frag fade-in-then-semi-out-->
 ```
 
-Available classes in revealjs are:
+Available fragment subclasses in revealjs are:
 
 ```
 visible
@@ -62,11 +62,12 @@ fade-left
 current-visible
 fade-in-then-semi-out
 fade-in-then-out
-highlight-blue <!-- red green  -->
+highlight-blue <!-- blue, red, green variants  -->
+highlight-bold <!-- entity gets the highlight according to the accent of the theme  -->
 
 ```
 
-Other can be created in the template.
+Other can be created in the template (see how we have with highlight-bold).
 
 ### vertical separator
 

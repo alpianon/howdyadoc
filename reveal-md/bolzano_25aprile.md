@@ -22,7 +22,7 @@ Bolzano, Internet, 25 aprile 2020
 Il trattamento deve basarsi su una base giuridica:
 
 - <span class="fragment highlight-red">consenso</span>
-- contratto
+- <span class="fragment highlight-bold">contratto</span>
 - obbligo di legge
 - interesse vitale di un terzo
 - interesse prevalente del titolare
@@ -64,7 +64,7 @@ withdraw** his or her consent **without detriment**.
 ----
 # Tra pari, senza soggezione al potere
 
-> The notion of *imbalance* between the controller
+> The notion of <span class="fragment highlight-bold">*imbalance*</span> between the controller
 and the data subject is also taken into consideration by the GDPR.
 
 ---
@@ -88,7 +88,7 @@ and the data subject is also taken into consideration by the GDPR.
 
 - Timore sul **rendimento**
 - Timore sulla **valutazione**
-- Timore di **effetto paria** (pressione sociale)
+- Timore di **effetto paria** (<span class="fragment highlight-bold">pressione sociale</span>)
 
 ---
 # Cosa fare?
