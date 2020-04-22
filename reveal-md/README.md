@@ -45,6 +45,31 @@ Fragments support classes like:
 <!--frag fade-in-then-semi-out-->
 ```
 
+<<<<<<< HEAD
+=======
+Available classes in revealjs are:
+
+```
+visible
+grow
+shrink
+zoom-in
+fade-out
+semi-fade-out
+strike
+fade-up
+fade-down
+fade-right
+fade-left
+current-visible
+fade-in-then-semi-out
+highlight-blue <!-- red green  -->
+
+```
+
+Other can be created in the template.
+
+>>>>>>> 3791ef861d8ac6bb523fc0dc2c3eb7008a8a78cf
 
 ### vertical separator
 
