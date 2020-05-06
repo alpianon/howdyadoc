@@ -17,7 +17,7 @@ Carlo Piana
 Bolzano, Internet, 25 aprile 2020
 
 ---
-# Basi giuridiche
+## Basi giuridiche
 
 Il trattamento deve basarsi su una base giuridica:
 
@@ -29,7 +29,7 @@ Il trattamento deve basarsi su una base giuridica:
 
 ---
 
-# Consenso
+## Consenso
 
 - <span class="fragment highlight-red">Libero</span>
 - Espresso
@@ -37,12 +37,12 @@ Il trattamento deve basarsi su una base giuridica:
 
 ---
 
-<img class="center-img-large" src="assets/img/fontespizio_art29.png" />
+![frontespizio](assets/img/fontespizio_art29.png) <!-- .element class="center-img-large" -->
 
 
 ---
 
-<img class="center-img-large" src="assets/img/wp29_consent.png" />
+![frontespizio](assets/img/wp29_consent.png) <!-- .element class="center-img-large" -->
 
 ----
 
@@ -68,17 +68,17 @@ withdraw** his or her consent **without detriment**.
 and the data subject is also taken into consideration by the GDPR.
 
 ---
-# Applichiamo alle piattaforme
+## Applichiamo alle piattaforme
 
 - <!--frag fade-in-then-semi-out --> La classe adotta una piattaforma
-- <!--frag--> Questa Piattaforma è una per tutti
+- <!--frag fade-in-then-semi-out --> Questa Piattaforma è una per tutti
 - <!--frag--> Questa piattaforma trasferisce i dati **a terzi** <!--frag-->
 - <!--frag--> Serve un **Consenso specifico** <!--frag-->
-- <!--frag--> Cosa succede se uno studente nega?
+- <!--frag--> Cosa succede se uno studente nega? @fa[exclamation-triangle fa-red fragment]
 
 ----
 
-# Una proposta che non si può rifiutare
+## Una proposta che non si può rifiutare
 
 ![](assets/img/thegodfather.jpg)<!--frag fade-right center-img-large -->
 
@@ -91,7 +91,7 @@ and the data subject is also taken into consideration by the GDPR.
 - Timore di **effetto paria** (pressione sociale)
 
 ---
-# Cosa fare?
+## Cosa fare?
 
 - Voto unanime e segreto **(?)** <!--frag-->
 - <!--frag--> Non mettere lo studente in condizioni di dover accettare
