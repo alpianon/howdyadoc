@@ -1,0 +1,30 @@
+#!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-FileCopyrightText: 2020 Alberto Pianon <pianon@array.eu>
+
+if [ -z $1 ] || [ "$1" == "-h" ]; then
+  echo "Convert docx files into pdf files through libreoffice,"
+  echo "with a workaround for the libreoffice bug when dealing with docx tables"
+  echo "(the original docx file is kept unchanged)"
+  echo
+  echo "usage: ${0##*/} DOCX_FILE"
+  exit 1
+fi
+
+set -e
+
+docx_file=`realpath "$1"`
+docx_file_basename=`basename "$docx_file"`
+pdf_file_basename="${docx_file_basename%.docx}.pdf"
+pdf_file_dirname=`dirname "$docx_file"`
+
+tmpdir=$(mktemp -d)
+
+libreoffice --convert-to docx --outdir $tmpdir $docx_file
+cd $tmpdir
+libreoffice --convert-to pdf "$docx_file_basename"
+cd -
+mv "$tmpdir/$pdf_file_basename" "$pdf_file_dirname/$pdf_file_basename"
+rm -Rf $tmpdir/
+
+exit 0
