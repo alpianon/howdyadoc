@@ -25,7 +25,9 @@ or
 
 ### fragments
 
-To enhance source readability, we use a shorter comment tag (`<!--frag-->`), which is replaced by preprocessor with `&shy;<!-- .element: class="fragment" -->` in order to work also with lines with bold or italic text (see <https://github.com/hakimel/reveal.js/issues/1848#issuecomment-590111319>)
+To enhance source readability, we use a shorter comment tag (`<!--frag [further classes] [index] [0-9]-->`), which is replaced by preprocessor with `&shy;<!-- .element: class="fragment" -->` in order to work also with lines with bold or italic text (see <https://github.com/hakimel/reveal.js/issues/1848#issuecomment-590111319>)
+
+In their simplest form, the fragment appear without further ado in the order they appear.
 
 ```
 <!--frag--> Paragraph.
@@ -39,7 +41,7 @@ trick:
 - <!--frag--> First you will see this **and after you will see this** <!--frag-->
 ```
 
-Fragments support classes like:
+Fragments **support classes** like:
 
 ```
 <!--frag fade-in-then-semi-out-->
@@ -66,8 +68,20 @@ highlight-blue <!-- blue, red, green variants  -->
 highlight-bold <!-- entity gets the highlight according to the accent of the theme  -->
 
 ```
-
 Other can be created in the template (see how we have with highlight-bold).
+
+You can also **alter the order** of fragments by adding the optional parameter "index" followed by a number from 0 to 9 as the last argument.
+
+So you can have
+
+```
+- <!--frag index 2 --> Some text appearing after
+- <!--frag index 2 --> Some text appearing earlier
+
+```
+Mind that index must *always be the last parameter*
+
+
 
 ### vertical separator
 
@@ -117,6 +131,22 @@ Some examples:
 Will render like:
 
 ![](images/2020/04/font-awesome-examples.png)
+
+### Link to slides
+
+Linking to slides is very easy
+
+Just insert a comment with only `id` and a name like:
+
+```
+<!-- id something -->
+```
+
+And you can link to that slide by just using the standard hyperlink of Markdown, like:
+
+```
+See this [slide](#/something)
+```
 
 
 ## Styling
