@@ -33,7 +33,7 @@ Torino, the Internet, 15 maggio 2020
 I dati chiusi (rinvio) e breve storia.
 
 ---
-<!-- id perché --> 
+<!-- id perché -->
 
 ## Perché chiudere i dati, perché aprirli
 
