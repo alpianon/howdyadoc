@@ -102,8 +102,8 @@ Milano, <!-- FIXME: DATE -->
 - trade secrets: **secrecy of valuable information** <!--frag-->
 
 ---
-
 # Duration
+
 
 - Copyright: **Life + 70 years** <!--frag-->
 - patents (inventions): **~20 years from first claimed priority** <!--frag-->
@@ -111,4 +111,27 @@ Milano, <!-- FIXME: DATE -->
 - trade secrets: **forever until secret** <!--frag-->
 - database rights: **15 years from last substantial investment** <!--frag-->
 
+---
+
+# Protection of software
+
+---
+
+## What is relevant
+
+- Copyright (code)
+- Patents (ways of making code)
+- Trade secrets (source vs. object/obfuscated)
+- Trademark ("product")
+- Database rights (residual)
+
+---
+
+## Patent vs. copyright
+
+What do they cover:
+
+- patents cover the idea, copyright the form of expression
+- copyright does not cover facts, data
+- patents do not cover software as such  @fa[laugh-squint fa-2x fragment]
 ---
