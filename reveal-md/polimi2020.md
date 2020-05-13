@@ -4,14 +4,22 @@ template: assets/theme/array_white.html
 verticalSeparator: ^----
 laguage: en
 ---
-# Introduction to intellectual property
+# Copyright licensing and patents for scientific software
 
-Carlo Piana
+<div class="normativa">
+Politecnico di Milano
+
+Course on Advanced Programming for scientific studies
+</div>
+
+by Carlo Piana
 
 Array
 https://array.eu
 
+
 Milano, <!-- FIXME: DATE -->
+
 
 ---
 
@@ -119,7 +127,7 @@ Milano, <!-- FIXME: DATE -->
 
 ---
 
-## What is relevant
+## What is relevant (for scientific software and software at large?)
 
 - Copyright (code, as a literary works)
 - Patents (ways of using code to resolve "technical problems")
@@ -169,17 +177,17 @@ How do you infringe:
 In a nutshell, a set of public licenses that grant *everybody* some liberties:
 
 - use the software
-- study the software
-- modify the software
-- distribute original or modified software
+- study and change the software
+- distribute copies of the software
+- distribute modified versions of the software
 
-<!--frag-->Well, that's Free Software an those are the 4 liberties...
+<!--frag-->Well, that's "Free Software" and those are the [4 liberties](https://www.gnu.org/philosophy/free-sw.html)...
 
 ---
 
 ## The OSD
 
-Open source is technically software licensed under conditions of a license that complies with the open source definition, stewarded by the Open Source Initiative <https://opensource.org>
+Open source is technically software licensed under conditions of a license that complies with the **Open source definition**, stewarded by the Open Source Initiative <https://opensource.org>
 
 But that only tells a part of the story.
 
@@ -240,3 +248,34 @@ The more conditions and the stricter, the more likely you have **incompatibiliti
 # We call it **"compliance"** <!--frag-->
 
 ---
+
+# Text and data mining, open data
+
+---
+
+## New copyright directive on Copyright
+
+- yet to be implemented in many states (including Italy)
+- deals also with software and data mining
+- but not quite sufficient
+
+---
+
+## Open data
+
+Open data is an increasing mantra for public and private entities alike. "Open" Means
+
+- accessible
+- machine-readable / parseable (standards)
+- under rights that allow for extraction and reuse
+- see guidelines on open data for PA
+  - Commission communication 2014/C – 240/01
+  - Italian guidelines (2017)
+
+----
+
+## 2 models
+
+- licenses (mainly Creative Commons BY, starting from 4.0, ODBL, IODBL, CLD --Linux Foundation)
+- "waiver" (mainly CC-0)
+- <!--frag-->please avoid share alike
