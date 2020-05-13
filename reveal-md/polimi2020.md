@@ -1,6 +1,8 @@
 ---
 title: Introduction to intellectual property
 template: assets/theme/array_white.html
+css: assets/theme/custom_poli.css
+preprocessor: assets/js/frag-image.js
 verticalSeparator: ^----
 laguage: en
 ---
