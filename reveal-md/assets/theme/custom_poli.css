@@ -1,15 +1,12 @@
-.normativa {border:1px solid red; font-size: 0.65em; padding-left: 0.3em; padding-right: 0.3em; color: #659;}
+.normativa {font-size: 0.65em; color: #659;}
 
 .slide-background {
-  background-image: url(../img/logo_array.png),
+    background-image: url(../img/logo_array.png),
   url(../img/politecnico.png);
- background-position:
-  top 20px left 15px,
-  top 20px right 15px;
 
- background-size:
+  background-size:
   12.5%,
-  8%;}
+  5%;}
 
 div.reveal::after {content: "©2020 Carlo Piana - Array -  some rights reserved";
   display: block;
