@@ -113,14 +113,14 @@ and the data subject is also taken into consideration by the GDPR.
 
 <div class="bottom">
 
-[![Creative Commons License](http://i.creativecommons.org/p/zero/1.0/88x31.png)<!-- .element: style="border-width:0" -->][CC0]
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)<!-- .element: style="border-width:0" -->][CC-by-sa]
 
-This work is licensed under a [Creative Commons - zero International License][CC0]
+This work is licensed under a [Creative Commons - Attribution - ShareAlike][CC-by-sa]
 
 Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow with [reveal-md](https://github.com/webpro/reveal-md)
 
 </div>
 
-  [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
+  [CC-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
   [81aa3153]: https://revealjs.com/ "Reveal"
   [81aa3154]: https://daringfireball.net/projects/markdown/syntax

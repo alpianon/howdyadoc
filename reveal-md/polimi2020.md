@@ -6,19 +6,11 @@ preprocessor: assets/js/frag-image.js
 verticalSeparator: ^----
 laguage: en
 ---
-# Copyright licensing and patents for scientific software
+# Ip and licensing of scientific software
 
-<div class="normativa">
-Politecnico di Milano
+![](assets/img/politecnico.png)<!-- .element: style="border-width:0; box-shadow: none; height: 2.2em; float: left; margin-right: 1em;" --> Politecnico di Milano -- Course on Advanced Programming for scientific studies  
 
-Course on Advanced Programming for scientific studies
-</div>
-
-by Carlo Piana
-
-Array
-https://array.eu
-
+by Carlo Piana   Array https://array.eu   
 
 Milano, <!-- FIXME: DATE -->
 
@@ -45,7 +37,7 @@ Milano, <!-- FIXME: DATE -->
 
 ---
 
-# Quelle petite Différence
+## Quelle petite Différence
 
 ![](assets/img/giraffes.svg)
 
@@ -281,3 +273,30 @@ Open data is an increasing mantra for public and private entities alike. "Open" 
 - licenses (mainly Creative Commons BY, starting from 4.0, ODBL, IODBL, CLD --Linux Foundation)
 - "waiver" (mainly CC-0)
 - <!--frag-->please avoid share alike
+
+---
+
+## Where to find out more
+
+![book piana](assets/img/book_piana.jpg) <!-- .element: class="center-img" -->
+
+
+---
+<!-- bkg thanks.jpg-->
+
+## Thank you!
+
+<div class="bottom" style="position: relative; bottom: -10em;">
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)<!-- .element: style="border-width:0" -->][CC-by-sa]
+
+This work is licensed under a [Creative Commons - Attribution - ShareAlike][CC-by-sa]
+
+Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow with [reveal-md](https://github.com/webpro/reveal-md)
+
+</div>
+
+  [CC-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+  [81aa3153]: https://revealjs.com/ "Reveal"
+  [81aa3154]: https://daringfireball.net/projects/markdown/syntax
