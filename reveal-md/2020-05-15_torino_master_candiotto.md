@@ -1,9 +1,12 @@
 ---
 title: Open data 101
 template: assets/theme/array_white.html
+preprocessor: assets/js/frag-image.js
+css: assets/theme/custom.css
 verticalSeparator: ^----
 laguage: it
 ---
+
 
 # I dati aperti
 
@@ -243,3 +246,24 @@ Si raccomanda di prevedere, compatibilmente con il diritto applicabile, obblighi
 ## Per approfondire
 
 - <https://www.techeconomy2030.it/2016/04/21/dati-aperti-o-open-data/>
+
+---
+
+<!-- bkg thanks.jpg-->
+
+## Thank you!
+
+<div class="bottom" style="position: relative; bottom: -10em;">
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)<!-- .element: style="border-width:0" -->][CC-by-sa]
+
+This work is licensed under a [Creative Commons - Attribution - ShareAlike][CC-by-sa]
+
+Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow with [reveal-md](https://github.com/webpro/reveal-md)
+
+</div>
+
+  [CC-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+  [81aa3153]: https://revealjs.com/ "Reveal"
+  [81aa3154]: https://daringfireball.net/projects/markdown/syntax
