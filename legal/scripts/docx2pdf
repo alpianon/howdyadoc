@@ -22,7 +22,13 @@ tmpdir=$(mktemp -d)
 
 libreoffice --convert-to docx --outdir $tmpdir $docx_file
 cd $tmpdir
+while [ ! -f "$docx_file_basename" ]; do
+  sleep 0.5 # workaround for https://bugs.launchpad.net/ubuntu/+source/libreoffice/+bug/1777285
+done
 libreoffice --convert-to pdf "$docx_file_basename"
+while [ ! -f "$pdf_file_basename" ]; do
+  sleep 0.5 # workaround for https://bugs.launchpad.net/ubuntu/+source/libreoffice/+bug/1777285
+done
 cd -
 mv "$tmpdir/$pdf_file_basename" "$pdf_file_dirname/$pdf_file_basename"
 rm -Rf $tmpdir/
