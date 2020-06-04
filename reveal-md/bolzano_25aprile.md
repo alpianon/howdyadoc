@@ -21,7 +21,7 @@ Bolzano, Internet, 25 aprile 2020
 
 Il trattamento deve basarsi su una base giuridica:
 
-- <span class="fragment highlight-red">consenso</span>
+- <span class="fragment highlight-bold">consenso</span>
 - contratto
 - obbligo di legge
 - interesse vitale di un terzo
@@ -31,7 +31,7 @@ Il trattamento deve basarsi su una base giuridica:
 
 ## Consenso
 
-- <span class="fragment highlight-red">Libero</span>
+- <span class="fragment highlight-bold">Libero</span>
 - Espresso
 - Informato
 
@@ -48,9 +48,9 @@ Il trattamento deve basarsi su una base giuridica:
 
 # Consenso Libero
 
-> The element “free” implies real choice and control for data subjects. As a general rule, the GDPR
-prescribes that if the data subject has no real choice, feels compelled to consent or will endure
-negative consequences if they do not consent, then consent **will not be valid**.
+> The element “*free*” <!--frag highlight-bold--> implies *real choice* <!--frag highlight-bold--> and control for data subjects. As a general rule, the GDPR
+> prescribes that if the data subject has no real choice, *feels compelled*<!--frag highlight-bold--> to consent or will endure
+*negative consequences*<!--frag highlight-bold--> if they do not consent, then consent *will not be valid*.<!--frag highlight-bold-->
 
 ----
 
@@ -64,7 +64,7 @@ withdraw** his or her consent **without detriment**.
 ----
 # Tra pari, senza soggezione al potere
 
-> The notion of *imbalance* between the controller
+> The notion of <span class="fragment highlight-bold">*imbalance*</span> between the controller
 and the data subject is also taken into consideration by the GDPR.
 
 ---
@@ -88,21 +88,24 @@ and the data subject is also taken into consideration by the GDPR.
 
 - Timore sul **rendimento**
 - Timore sulla **valutazione**
-- Timore di **effetto paria** (pressione sociale)
+- Timore di **effetto paria** (<span class="fragment highlight-bold">pressione sociale</span>)
 
 ---
 ## Cosa fare?
 
-- Voto unanime e segreto **(?)** <!--frag-->
+- Voto unanime e segreto @fa[question-circle fa-red fragment ]
 - <!--frag--> Non mettere lo studente in condizioni di dover accettare
 - <!--frag--> Soluzioni alternative: **self hosted** <!--frag-->
 - <!--frag--> Se non possibile (?!), offrire almeno alternative (ma ve ne sono? È fattibile?)
 
 ---
-## Noi abbiamo lavorato a Jitsi self-hosted
+## Esempi
 
-<https://jitsi-club.gitlab.io/jitsi-self-hosting/en/>
+<!--frag--> Noi abbiamo lavorato a Jitsi self-hosted (Documentazione)
 
+<!--frag--> <https://jitsi-club.gitlab.io/jitsi-self-hosting/en/>
+
+<!--frag--> Questo servizio da cui parliamo ([BBB](https://bigbluebutton.org/))<!--frag-->
 ---
 <!-- bkg thanks.jpg-->
 

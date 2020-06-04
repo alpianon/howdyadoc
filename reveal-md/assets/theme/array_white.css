@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(/lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 .slide-background {
   background-image: url(../img/logo_array.png); }
 
@@ -322,8 +322,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 950%;
-  max-height: 650px;
+  min-height: 60%;
+  max-width: 95%;
+  max-height: 95%;
   background: none;
   box-shadow: none;
   border: 0px; }
@@ -341,4 +342,14 @@ body {
   color: darkgreen; }
 
 .fa-strong {
+  color: #da2233; }
+
+.reveal .slides section .fragment.highlight-bold {
+  opacity: 1;
+  visibility: inherit; }
+
+.reveal .slides section .fragment.highlight-bold.visible {
+  color: #da2233; }
+
+.reveal .slides section .fragment.highlight-current-bold.current-fragment {
   color: #da2233; }
