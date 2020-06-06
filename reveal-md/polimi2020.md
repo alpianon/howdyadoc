@@ -12,7 +12,7 @@ laguage: en
 
 by Carlo Piana   Array https://array.eu   
 
-Milano, <!-- FIXME: DATE -->
+Milano, June 2020
 
 
 ---
@@ -247,17 +247,51 @@ The more conditions and the stricter, the more likely you have **incompatibiliti
 
 ---
 
-## New copyright directive on Copyright
+## New directive on Copyright
 
 - yet to be implemented in many states (including Italy)
 - deals also with software and data mining
 - but not quite sufficient
 
+----
+
+## Definition
+
+Article 2
+
+> \(2) 'text and data mining' means any automated analytical technique aimed at analysing text and data in digital form in order to **generate information** which includes but is not limited to patterns, trends and correlations;
+
+----
+## The issue
+
+Whereas
+
+> \(11)
+> The **legal uncertainty** concerning text and data mining should be addressed by providing for a **mandatory exception** for **universities** and other **research organisations**, as well as for **cultural heritage institutions**, to the exclusive right of reproduction and to the right to prevent extraction from a database.
+
+----
+
+## Compulsory exception for scientific research
+
+Art. 3 -  Text and data mining for the purposes of **scientific research**
+
+> 1.   Member States shall provide for an exception to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, and Article 15(1) of this Directive for **reproductions and extractions** made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining of works or other subject matter to which they have lawful access.
+
+
+----
+
+## Non compulsory exception for all others
+
+Article 4 - Exception or limitation for text and data mining
+
+> 3.   The exception or limitation provided for in paragraph 1 shall apply on condition that the use of works and other subject matter referred to in that paragraph **has not been expressly reserved** by their rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online.
+
+
 ---
 
 ## Open data
 
-Open data is an increasing mantra for public and private entities alike. "Open" Means
+Open data is an increasing mantra for public and private entities alike. "Open" Means:
 
 - accessible
 - machine-readable / parseable (standards)
