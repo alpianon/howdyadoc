@@ -258,16 +258,15 @@ The more conditions and the stricter, the more likely you have **incompatibiliti
 ## Definition
 
 Article 2
-
-> \(2) 'text and data mining' means any automated analytical technique aimed at analysing text and data in digital form in order to **generate information** which includes but is not limited to patterns, trends and correlations;
+<div class="normativa" >
+(2) 'text and data mining' means any automated analytical technique aimed at analysing text and data in digital form in order to <strong>generate information</strong> which includes but is not limited to patterns, trends and correlations;</div>
 
 ----
 ## The issue
 
 Whereas
-
-> \(11)
-> The **legal uncertainty** concerning text and data mining should be addressed by providing for a **mandatory exception** for **universities** and other **research organisations**, as well as for **cultural heritage institutions**, to the exclusive right of reproduction and to the right to prevent extraction from a database.
+<div class="normativa" >
+(11) The <strong>legal uncertainty</strong> concerning text and data mining should be addressed by providing for a <strong>mandatory exception</strong> for <strong>universities</strong> and other <strong>research organisations</strong>, as well as for <strong>cultural heritage institutions</strong>, to the exclusive right of reproduction and to the right to prevent extraction from a database.</div>
 
 ----
 
@@ -275,16 +274,16 @@ Whereas
 
 Art. 3 -  Text and data mining for the purposes of **scientific research**
 
-> 1.   Member States shall provide for an exception to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, and Article 15(1) of this Directive for **reproductions and extractions** made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining of works or other subject matter to which they have lawful access.
-
+<div class="normativa" >
+1.   Member States shall provide for an exception to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, and Article 15(1) of this Directive for <strong>reproductions and extractions</strong> made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining of works or other subject matter to which they have lawful access.</div>
 
 ----
 
 ## Non compulsory exception for all others
 
 Article 4 - Exception or limitation for text and data mining
-
-> 3.   The exception or limitation provided for in paragraph 1 shall apply on condition that the use of works and other subject matter referred to in that paragraph **has not been expressly reserved** by their rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online.
+<div class="normativa" >
+3.   The exception or limitation provided for in paragraph 1 shall apply on condition that the use of works and other subject matter referred to in that paragraph <strong>has not been expressly reserved</strong> by their rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online.</div>
 
 
 ---
