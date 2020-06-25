@@ -10,7 +10,8 @@ module.exports = (markdown, options) => {
           .replace(/<!--\ ?frag(\ ?.*?)-->/g, '&shy;<!-- .element: class="fragment$1" -->')
           // .replace(/<!--\ ?id (.*?)\ ?-->/g, '<!-- .slide: id="$1" -->')
           .replace(/<!--\ ?id (.*)\ ?-->/g, '<!-- .slide: id="$1" -->')
-          .replace(/@fa\[(.*?)\]/g, '<i class="fa fa-$1"></i>');
+          .replace(/@fa\[(.*?)\]/g, '<i class="fa fa-$1"></i>')
+          .replace(/@far\[(.*?)\]/g, '<i class="far fa-$1"></i>');
         })
         .join('\n')
     );
