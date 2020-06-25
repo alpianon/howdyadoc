@@ -17,6 +17,14 @@ Milano, Bolzano, the Internet, 26 giugno 2020
 
 ---
 
+## Do per scontato!
+
+- Cos'è EIDAS e a cosa serve
+- Cos'è il CAD
+- Cos'è la Conservazione sostitutiva
+
+---
+
 ## Il documento informatico
 
 Poco in Eidas
