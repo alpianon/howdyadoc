@@ -20,7 +20,7 @@ Milano, Bolzano, the Internet, 26 giugno 2020
 ## Do per scontato!
 
 - Cos'è EIDAS e a cosa serve
-  - Cos'è il CAD
+- Cos'è il CAD
 - Cos'è la Conservazione sostitutiva
 
 ---
@@ -28,7 +28,7 @@ Milano, Bolzano, the Internet, 26 giugno 2020
 ## Il documento informatico
 
 Poco in Eidas
-- Aticolo 2.1.35
+- Articolo 2.1.35
 
 <div class="normativa fragment" data-fragment-index="1">
 «documento elettronico», qualsiasi contenuto conservato in forma elettronica, in particolare testo o registrazione sonora, visiva o audiovisiva;
