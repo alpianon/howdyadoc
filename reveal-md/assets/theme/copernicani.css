@@ -317,6 +317,13 @@ body {
   border: 0px;
   position: relative; }
 
+.reveal .normativa {
+  font-size: 0.65em;
+  color: #627; }
+
+.reveal .center {
+  text-align: center; }
+
 .reveal .center-img-large {
   display: block;
   margin-left: auto;

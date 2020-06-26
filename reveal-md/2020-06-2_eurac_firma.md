@@ -59,7 +59,7 @@ Qualità della firma:
 
 «firma elettronica»: dati in forma elettronica, acclusi oppure connessi tramite associazione logica ad altri dati elettronici e utilizzati dal firmatario per firmare (art. 3.1.10 EIDAS)
 
-@far[meh-rolling-eyes fa-4x fa-green fragment]
+<div class="center">@far[meh-rolling-eyes fa-4x fa-green fragment]</div>
 
 ---
 
@@ -67,7 +67,7 @@ Qualità della firma:
 
 Un dispositivo logico e tecnico che consente di attribuire all'autore la paternità della sottoscrizione, perché solo lei/lui possedeva qualcosa e creare la firma.
 
-@far[flushed fa-4x fa-green fragment]
+<div class="center">@far[flushed fa-4x fa-green fragment]</div>
 
 ----
 
