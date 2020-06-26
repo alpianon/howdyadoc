@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * White theme for reveal.js. This is the opposite of the 'black' theme.
  *
@@ -357,3 +358,17 @@ body {
 .fa-strong {
   color: #da2233;
   font-weight: bold; }
+
+.reveal ul {
+  list-style-type: none; }
+
+ul > li:before {
+  content: "●";
+  position: absolute;
+  margin-left: -1.1em;
+  color: #da2233;
+  font-size: 0.7em; }
+
+ul ul > li:before {
+  content: "";
+  /* empty */ }
