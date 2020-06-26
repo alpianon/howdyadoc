@@ -300,3 +300,26 @@ In mancanza di tale indicazione, l’Amministrazione potrebbe non essere in grad
 - Servizi (Namirial)
 - DSS https://joinup.ec.europa.eu/dss-webapp/validation (va e non va...)
 - Molta fantasia e arte, soprattutto con le firme EIDAS
+
+---
+
+---
+
+<!-- bkg thanks.jpg-->
+
+## Thank you!
+
+<div class="bottom" style="position: relative; bottom: -10em;">
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)<!-- .element: style="border-width:0" -->][CC-by-sa]
+
+This work is licensed under a [Creative Commons - Attribution - ShareAlike][CC-by-sa]
+
+Presentation made using [Reveal.js][81aa3153] and a [Markdown][81aa3154] workflow with [reveal-md](https://github.com/webpro/reveal-md)
+
+</div>
+
+  [CC-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+  [81aa3153]: https://revealjs.com/ "Reveal"
+  [81aa3154]: https://daringfireball.net/projects/markdown/syntax
