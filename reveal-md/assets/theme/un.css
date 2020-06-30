@@ -319,7 +319,8 @@ body {
 
 .reveal .normativa {
   font-size: 0.65em;
-  color: #627; }
+  font-family: monospace;
+  color: #1a1aac; }
 
 .reveal .center {
   text-align: center; }
