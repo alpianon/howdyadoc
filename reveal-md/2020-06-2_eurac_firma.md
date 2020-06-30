@@ -137,7 +137,7 @@ Meccanismo della qualificazione:
 - <!--frag--> @fa[exclamation fa-strong] La Certification Revocation List (**CRL**)
 - <!--frag--> @fa[exclamation fa-strong]@fa[exclamation fa-strong] Un orologio e un calendario
 
-<!--frag-->@fa[question fa-strong fa-2x]
+<!--frag center-->@fa[question fa-strong fa-2x]
 
 ---
 
@@ -166,9 +166,9 @@ Meccanismo della qualificazione:
 
 Colloca la firma in un orizzonte temporale precedente la revoca o la scadenza
 
-@fa[arrow-down center-img fa-2x fa-green fragment]
+@fa[arrow-down center-img fa-2x fa-green fragment center]
 
-<!--frag index --> **Firma valida**
+<!--frag center --> **Firma valida**
 
 ---
 
