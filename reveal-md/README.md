@@ -20,6 +20,15 @@ or
 
 `reveal-md --preprocessor assets/js/frag-image.js ./ -w`
 
+The same parameters can be passed to the processor via the `YAML` statements, including an additional [custom CSS] like this:
+
+```yaml
+---
+template: assets/theme/array_white.html
+css: assets/theme/custom_poli.css
+preprocessor: assets/js/frag-image.js
+---
+```
 
 ## Syntax
 
@@ -81,7 +90,36 @@ So you can have
 ```
 Mind that index must *always be the last parameter*
 
+### Custom CSS
 
+You can pass additional CSS that will go after the ones referenced in the template, for instance, to add an additional logo in a different position.
+
+This is a working example with a second logo and a footer with copyright:
+
+```CSS
+.slide-background {
+    background-image: url(../img/logo_array.png),
+  url(../img/logoEURAC.png);
+
+  background-size:
+  12.5%,
+  8%;}
+
+div.reveal::after {content: "©2020 Carlo Piana - Array -  some rights reserved";
+  display: block;
+  font-size: 0.4em !important;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: unset;
+  font-style: unset;
+  color: #733;
+}
+
+```
 
 ### vertical separator
 
@@ -131,6 +169,8 @@ Some examples:
 Will render like:
 
 ![](images/2020/04/font-awesome-examples.png)
+
+Some Font Awesome symbols have a "regular" (non solid) variant invoked with "far". Therefore the same syntax would work with `@far[arguments class]` as well, if the variant exists.
 
 ### Link to slides
 
