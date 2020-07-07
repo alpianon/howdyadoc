@@ -149,11 +149,11 @@ Progetto St. Virtual. Il codice è disponibile su un repository Github. Verrà r
 - Richiede il rebrading in caso di uso per servizi simili
 - Rimanda a una Trademark Policy per gli usi consentiti e guida all'uso in funzione descrittiva o per progetti di **cultural heritage**
 
-Il rebranding va a nostro parere facilitato, oltre che attraverso la normale separazione contenuto/presetazione, tramite l'identificazione degli elementi da necessariamente modificare (es con variabili SCSS, raccogliendo le immagini in posti chiaramente identificati, eccetera).
+----
 
+Il rebranding va a nostro parere facilitato, oltre che attraverso la normale separazione contenuto/presentazione, tramite l'identificazione degli elementi da necessariamente modificare (es con variabili SCSS, raccogliendo le immagini in posti chiaramente identificati, eccetera).
 
-
-
+---
 
 <!-- bkg thanks.jpg-->
 
