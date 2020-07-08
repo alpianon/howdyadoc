@@ -1,0 +1,21 @@
+.slide-background {
+    background-image: url(../img/logo_array.png),
+  url(../img/noi.png);
+
+  background-size:
+  12.5%,
+  8%;}
+
+div.reveal::after {content: "©2020 Carlo Piana - Array -  some rights reserved";
+  display: block;
+  font-size: 0.4em !important;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: unset;
+  font-style: unset;
+  color: #733;
+}

@@ -12,7 +12,7 @@ laguage: en
 
 by Carlo Piana   Array https://array.eu   
 
-Milano, <!-- FIXME: DATE -->
+Milano, June 2020
 
 
 ---
@@ -247,17 +247,50 @@ The more conditions and the stricter, the more likely you have **incompatibiliti
 
 ---
 
-## New copyright directive on Copyright
+## New directive on Copyright
 
 - yet to be implemented in many states (including Italy)
 - deals also with software and data mining
 - but not quite sufficient
 
+----
+
+## Definition
+
+Article 2
+<div class="normativa" >
+(2) 'text and data mining' means any automated analytical technique aimed at analysing text and data in digital form in order to <strong>generate information</strong> which includes but is not limited to patterns, trends and correlations;</div>
+
+----
+## The issue
+
+Whereas
+<div class="normativa" >
+(11) The <strong>legal uncertainty</strong> concerning text and data mining should be addressed by providing for a <strong>mandatory exception</strong> for <strong>universities</strong> and other <strong>research organisations</strong>, as well as for <strong>cultural heritage institutions</strong>, to the exclusive right of reproduction and to the right to prevent extraction from a database.</div>
+
+----
+
+## Compulsory exception for scientific research
+
+Art. 3 -  Text and data mining for the purposes of **scientific research**
+
+<div class="normativa" >
+1.   Member States shall provide for an exception to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, and Article 15(1) of this Directive for <strong>reproductions and extractions</strong> made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining of works or other subject matter to which they have lawful access.</div>
+
+----
+
+## Non compulsory exception for all others
+
+Article 4 - Exception or limitation for text and data mining
+<div class="normativa" >
+3.   The exception or limitation provided for in paragraph 1 shall apply on condition that the use of works and other subject matter referred to in that paragraph <strong>has not been expressly reserved</strong> by their rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online.</div>
+
+
 ---
 
 ## Open data
 
-Open data is an increasing mantra for public and private entities alike. "Open" Means
+Open data is an increasing mantra for public and private entities alike. "Open" Means:
 
 - accessible
 - machine-readable / parseable (standards)

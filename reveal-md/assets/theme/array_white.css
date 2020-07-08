@@ -1,9 +1,10 @@
+@charset "UTF-8";
 /**
  * White theme for reveal.js. This is the opposite of the 'black' theme.
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../lib/font/source-sans-pro/source-sans-pro.css);
 .slide-background {
   background-image: url(../img/logo_array.png); }
 
@@ -19,9 +20,9 @@ body {
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 44px;
+  font-size: 37px;
   font-weight: normal;
-  color: #222; }
+  color: #363f44; }
 
 ::selection {
   color: #fff;
@@ -54,7 +55,7 @@ body {
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: 1px 2px #222;
+  text-shadow: 1px 2px #363f44;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -70,7 +71,7 @@ body {
   font-size: 1em; }
 
 .reveal h1 {
-  text-shadow: 1px 2px #222; }
+  text-shadow: 1px 2px #363f44; }
 
 /*********************************************
  * OTHER
@@ -233,7 +234,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #222;
+  border: 4px solid #363f44;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -283,9 +284,9 @@ body {
   color: #da2233; }
 
 .slide-background {
-  background-size: 12.5%;
+  background-size: 12.5%,auto;
   background-repeat: no-repeat;
-  background-position: top 20px left 15px; }
+  background-position: top 20px left 15px, top 20px right 20px; }
 
 .reveal .dom {
   background-color: rgba(250, 250, 250, 0.4);
@@ -318,6 +319,14 @@ body {
   border: 0px;
   position: relative; }
 
+.reveal .normativa {
+  font-size: 0.65em;
+  font-family: monospace;
+  color: #1a1aac; }
+
+.reveal .center {
+  text-align: center; }
+
 .reveal .center-img-large {
   display: block;
   margin-left: auto;
@@ -329,20 +338,14 @@ body {
   box-shadow: none;
   border: 0px; }
 
+.reveal .borderless {
+  border: none; }
+
 .small {
   font-size: 0.6em !important;
   font-family: sans-serif;
   margin-right: 10%;
   margin-left: 5%; }
-
-.fa-red {
-  color: #cc0000; }
-
-.fa-green {
-  color: darkgreen; }
-
-.fa-strong {
-  color: #da2233; }
 
 .reveal .slides section .fragment.highlight-bold {
   opacity: 1;
@@ -353,3 +356,27 @@ body {
 
 .reveal .slides section .fragment.highlight-current-bold.current-fragment {
   color: #da2233; }
+
+.fa-red {
+  color: #cc0000; }
+
+.fa-green {
+  color: darkgreen; }
+
+.fa-strong {
+  color: #da2233;
+  font-weight: bold; }
+
+.reveal ul {
+  list-style-type: none; }
+
+ul > li:before {
+  content: "●";
+  position: absolute;
+  margin-left: -1.1em;
+  color: #da2233;
+  font-size: 0.7em; }
+
+ul ul > li:before {
+  content: "";
+  /* empty */ }

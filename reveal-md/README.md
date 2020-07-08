@@ -20,12 +20,23 @@ or
 
 `reveal-md --preprocessor assets/js/frag-image.js ./ -w`
 
+The same parameters can be passed to the processor via the `YAML` statements, including an additional [custom CSS] like this:
+
+```yaml
+---
+template: assets/theme/array_white.html
+css: assets/theme/custom_poli.css
+preprocessor: assets/js/frag-image.js
+---
+```
 
 ## Syntax
 
 ### fragments
 
-To enhance source readability, we use a shorter comment tag (`<!--frag-->`), which is replaced by preprocessor with `&shy;<!-- .element: class="fragment" -->` in order to work also with lines with bold or italic text (see <https://github.com/hakimel/reveal.js/issues/1848#issuecomment-590111319>)
+To enhance source readability, we use a shorter comment tag (`<!--frag [further classes] [index] [0-9]-->`), which is replaced by preprocessor with `&shy;<!-- .element: class="fragment" -->` in order to work also with lines with bold or italic text (see <https://github.com/hakimel/reveal.js/issues/1848#issuecomment-590111319>)
+
+In their simplest form, the fragment appear without further ado in the order they appear.
 
 ```
 <!--frag--> Paragraph.
@@ -39,7 +50,7 @@ trick:
 - <!--frag--> First you will see this **and after you will see this** <!--frag-->
 ```
 
-Fragments support classes like:
+Fragments **support classes** like:
 
 ```
 <!--frag fade-in-then-semi-out-->
@@ -66,8 +77,49 @@ highlight-blue <!-- blue, red, green variants  -->
 highlight-bold <!-- entity gets the highlight according to the accent of the theme  -->
 
 ```
-
 Other can be created in the template (see how we have with highlight-bold).
+
+You can also **alter the order** of fragments by adding the optional parameter "index" followed by a number from 0 to 9 as the last argument.
+
+So you can have
+
+```
+- <!--frag index 2 --> Some text appearing after
+- <!--frag index 2 --> Some text appearing earlier
+
+```
+Mind that index must *always be the last parameter*
+
+### Custom CSS
+
+You can pass additional CSS that will go after the ones referenced in the template, for instance, to add an additional logo in a different position.
+
+This is a working example with a second logo and a footer with copyright:
+
+```CSS
+.slide-background {
+    background-image: url(../img/logo_array.png),
+  url(../img/logoEURAC.png);
+
+  background-size:
+  12.5%,
+  8%;}
+
+div.reveal::after {content: "©2020 Carlo Piana - Array -  some rights reserved";
+  display: block;
+  font-size: 0.4em !important;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: unset;
+  font-style: unset;
+  color: #733;
+}
+
+```
 
 ### vertical separator
 
@@ -117,6 +169,24 @@ Some examples:
 Will render like:
 
 ![](images/2020/04/font-awesome-examples.png)
+
+Some Font Awesome symbols have a "regular" (non solid) variant invoked with "far". Therefore the same syntax would work with `@far[arguments class]` as well, if the variant exists.
+
+### Link to slides
+
+Linking to slides is very easy
+
+Just insert a comment with only `id` and a name like:
+
+```
+<!-- id something -->
+```
+
+And you can link to that slide by just using the standard hyperlink of Markdown, like:
+
+```
+See this [slide](#/something)
+```
 
 
 ## Styling
