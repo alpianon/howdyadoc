@@ -44,7 +44,7 @@ Milano, Bolzano, the Internet, 25 giugno 2020
 
 Un segno che non ha capacità distintiva la acquista per rinomanza (**secondary meaning**).
 
-Un segno che ha capacità distintiva la può perdere perché diventa un segno associato a una classe e non a un prodotto (**volgarizzaziozne**). Es. "cleenex" per fazzoletto di carta, "hoover" per passare l'aspirapolvere, "coca" per bevanda gasata dolciastra e dozzinale di colore scuro, come la Pepsi.
+Un segno che ha capacità distintiva la può perdere perché diventa un segno associato a una classe e non a un prodotto (**volgarizzazione**). Es. "cleenex" per fazzoletto di carta, "hoover" per passare l'aspirapolvere, "coca" per bevanda gasata dolciastra e dozzinale di colore scuro, come la Pepsi.
 
 ---
 
@@ -154,6 +154,65 @@ Progetto St. Virtual. Il codice è disponibile su un repository Github. Verrà r
 Il rebranding va a nostro parere facilitato, oltre che attraverso la normale separazione contenuto/presentazione, tramite l'identificazione degli elementi da necessariamente modificare (es con variabili SCSS, raccogliendo le immagini in posti chiaramente identificati, eccetera).
 
 ---
+
+# Immagini, dati e CC0
+
+---
+
+## Tema
+
+La Provincia Autonoma di Bolzano mette a disposizione in open data una serie di dati e servizi. Richiede per quanto possibile che essi siano rilasciati, quanto a dati e contenuti (no software) con la licenza Creative Commons 0.
+
+Come fare per soddisfare i requisiti legali?
+
+----
+
+## Ricordiamo cosa sono Le Creative Commons
+
+- Una famiglia di licenze
+  - <!--frag--> Un famiglia di licenze **Pubbliche**
+  - <!--frag--> Una famiglia di licenze pubbliche per diffondere **contenuti**
+  - <!--frag--> Una famiglia di licenze ben note e dalle conseguenze predicibili
+  - <!--frag--> Alcuni diritti riservati
+  - <!--frag--> **Condizioni**
+
+----
+
+## Quante sono?
+
+Contiamole assieme:
+
+- Attribution
+- Attribution - Non Commercial
+- Attribution - Share Alike
+- Attribution - Non Derivative
+- Attribution - Non Commercial - Non Derivative
+- Attribution - Non Commercial - Share Alike
+- <!--frag--> CC-zero
+
+----
+
+## Attribution -- BY
+
+Inclusione **se e come riportata dall'autore**
+
+- Del nome dell'autore (o pseudonimo)
+- Copyright notice
+- Liability disclaimer
+- URI
+- Modificato?
+- DRM (non si possono imporre nuovi)
+
+----
+
+## CC-0
+
+- Waiver completo
+- Il più possibile "Pubblico dominio"
+- Ma non il diritto morale (intrasmissibile, incedibile)
+
+
+----
 
 <!-- bkg thanks.jpg-->
 
