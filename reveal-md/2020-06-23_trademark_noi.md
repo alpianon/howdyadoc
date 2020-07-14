@@ -209,10 +209,53 @@ Inclusione **se e come riportata dall'autore**
 
 - Waiver completo
 - Il più possibile "Pubblico dominio"
-- Ma non il diritto morale (intrasmissibile, incedibile)
+- Ma non il diritto morale (intrasmissibile, incedibile, irrinunciabile)
 
+---
 
-----
+## Due licenze per database e contenuti
+
+- La base dati (database) gode di un diritto *sui generis*, quando il costitutore ha impiegato un investimento rilevante per la raccolta, presentazione, catalogazione, verifica dei dati.
+- Due diritti distinti:
+  - Indipendente dal copyright sui singoli contenuti.  La base dati può avere una licenza CC-0 e i contenuti essere proprietari (con permesso di diffondere), o viceversa.
+- Non esiste il **diritto morale** sulle banche dati non creative (soggette a database rights).
+
+---
+
+## Fotografia
+
+- Copyright: solo foto artistiche (non mera riproduzione di fatti, persone, oggetti)
+- Diritto connesso: solo se fotografo ha apposto nome, anno,  o se in buona fede si deve ritenere che i diritti siano riservati.
+- Durata: 20 anni
+- No diritto morale (ma non si può rimuovere la dicitura, se apposta)
+
+---
+
+## Diritti (licenza)
+
+- Menzione nei metadati
+- Menzione negli exif
+- Altro? Impressum con puntatore univoco?
+
+---
+
+## Paternità
+
+- Diritto intrasmissibile. Il suo esercizio passa ai discendenti in linea diretta.
+- @fa[arrow-right fa-green] obbligo di non disconoscere
+  - Richiede apposizione originale
+  - Richiede non azioni positive o implicite per negare l'altrui paternità
+- Non obbligo positivo di aggiungere qualcosa
+
+---
+
+## Problema
+
+- Trasformazione dell'immagine che elimina metadati
+- Cropping
+- Occorre farsi carico e rimediare per quanto consenta il mezzo.
+
+---
 
 <!-- bkg thanks.jpg-->
 
