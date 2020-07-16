@@ -16,6 +16,8 @@ Array https://array.eu
 Milano, Bolzano, the Internet, 25 giugno 2020
 
 ---
+# Marchi in progetti condivisi
+---
 
 ## La funzione del marchio
 
