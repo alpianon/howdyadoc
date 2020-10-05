@@ -1,4 +1,7 @@
 --[[
+SPDX-License-Identifier: ISC
+SPDX-FileCopyrightText: 2017-2020 Benct Philip Jonsson, Albert Krewinkel
+
 pagebreak – convert raw LaTeX page breaks to other formats
 
 Copyright © 2017-2020 Benct Philip Jonsson, Albert Krewinkel

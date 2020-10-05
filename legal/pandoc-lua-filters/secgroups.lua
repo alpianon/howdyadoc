@@ -1,20 +1,6 @@
---[[ 
-
+--[[
 SPDX-License-Identifier: GPL-3.0-only
-
-Copyright (C) 2019 Alberto Pianon <pianon@array.eu>
-
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, version 3.
-
-This program is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program. If not, see <https://www.gnu.org/licenses/>.
-
+SPDX-FileCopyrightText: 2019 Alberto Pianon <pianon@array.eu>
 ]]
 
 local sec_group = {}
@@ -45,7 +31,7 @@ function find_tagged_headers(header)
     if header.attributes[tag] then
       local s = pandoc.utils.stringify(header)
       table.insert(sec_group[tag], { id = header.identifier, title = s } )
-    end 
+    end
   end
 end
 
@@ -76,8 +62,8 @@ function replace_group_citations(cite)
 end
 
 return {
-  {Meta = get_tags}, 
-  {Header = find_tagged_headers}, 
+  {Meta = get_tags},
+  {Header = find_tagged_headers},
   {Pandoc = create_group_citations},
   {Cite = replace_group_citations}
 }
