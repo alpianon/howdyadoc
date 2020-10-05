@@ -30,7 +30,7 @@ sub format_comment {
 }
 sub get_formatted_localdate {
     ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
-    return sprintf('%02d-%02d-%04dT%02d:%02d:%02dZ', $year + 1900, $mon + 1, $mday, $hour, $min, $sec);
+    return sprintf('%04d-%02d-%02dT%02d:%02d:%02dZ', $year + 1900, $mon + 1, $mday, $hour, $min, $sec);
 }
 
 BEGIN { $/ = undef; $\ = undef; }
