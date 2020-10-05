@@ -90,6 +90,13 @@ This works out of the box in docx, while to make it work with odt you must creat
 
 While HTML does not require a template, a template is provided in [/templates](templates/html-snippet-template.html). If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
 
+## Convert docx to pdf with libreoffice
+
+If you want to convert a docx file generated with pandoc to a pdf file using libreoffice, you may experience problems with table widths (see [here](https://github.com/jgm/pandoc/issues/515)). This is due to a libreoffice bug, but there is a workaround: open the file with libreoffice, save it without modifications, reopen it and convert it into pdf.
+
+The script `docx2pdf` that you may find in the `scripts` folder automates this workaround via command line (as simple as `doc2pdf mydocument.docx`).
+
+
 ## TODO
 
 - add support for win/mac
