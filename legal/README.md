@@ -74,6 +74,18 @@ but to make it work with docx/odt you need to define "center" and "right" custom
 
 Note that center/right-aligning the text in the markdown source is optional (just for better readability); if you want to do that, you *must* begin each line with `\`.
 
+## Page Break
+
+Thanks to a third party filter [pagebreak.lua](https://github.com/pandoc/lua-filters/tree/master/pagebreak), you can use this simple syntax to include a pagebreak in your documents:
+
+```
+
+\pagebreak
+
+```
+This works out of the box in docx, while to make it work with odt you must create a reference ODT file with a named paragraph style called 'Pagebreak' and define it as having no extra space before or after but set it to have a pagebreak after it (see https://help.libreoffice.org/Writer/Text_Flow).
+
+
 ## Convert to HTML snippets
 
 While HTML does not require a template, a template is provided in [/templates](templates/html-snippet-template.html). If passed as third argument, it creates the target HTML file without metadata, easier to be included elsewhere.
