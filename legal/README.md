@@ -53,7 +53,7 @@ Output file type is determined by its extension (.odt, .docx or .html)
 
 ## Inline Comments
 
-Markdown comments (`<!-- like this -->`) are **converted** into side comments, but only in docx.
+Markdown comments (`<!-- like this -->`) are **converted** into side comments, both in docx and in odt.
 
 You can put your own name as the author by including it between brackets (`<!-- (myname) like this -->`)
 

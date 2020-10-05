@@ -10,7 +10,7 @@ if [ -z "$1" ] || [ -z "$2" ] || [ "$1" == "-h" ]
     echo "Usage: ${0##*/} MARKDOWN_FILE OUTPUT_FILE [REFERENCE_DOC]"
     echo
     echo "Output file type is determined by its extension - .odt or .docx"
-    echo "Comments are converted only in docx"
+    echo "Comments are converted both in docx and in odt"
     echo
     exit 1
 fi
@@ -35,9 +35,12 @@ if [[ "$EXTENSION" == "docx" ]]; then
   CMD=$CMD" | convert-html2docx-comments.pl"
 fi
 
+if [[ "$EXTENSION" == "odt" ]]; then
+  CMD=$CMD" | convert-html2odt-comments.pl"
+fi
 
 
-CMD=$CMD" | pandoc -f markdown-raw_tex+tex_math_single_backslash --columns 10 --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -o \"$OUTPUT_FILE\""
+CMD=$CMD" | pandoc -f markdown --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua --lua-filter=pagebreak.lua -o \"$OUTPUT_FILE\""
 
 if [[ ! -z "$REFERENCE_DOC" ]]; then
 
