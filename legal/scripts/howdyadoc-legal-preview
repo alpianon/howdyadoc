@@ -6,7 +6,7 @@ MD=`cat -`
 
 MUSTACHE=`sed -n '/---/,/---/p' <<< $MD | grep "^mustache:" | cut -d' ' -f2`
 
-PANDOC="pandoc -f markdown-raw_tex+tex_math_single_backslash --columns 10 --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua -t html"
+PANDOC="pandoc -f markdown-raw_tex+tex_math_single_backslash --columns 10 --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua --lua-filter=smartdivs.lua -t html"
 
 if [ -z $MUSTACHE ]
 then

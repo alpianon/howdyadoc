@@ -57,6 +57,22 @@ Markdown comments (`<!-- like this -->`) are **converted** into side comments, b
 
 You can put your own name as the author by including it between brackets (`<!-- (myname) like this -->`)
 
+## Center-aligned and right-aligned text
+
+Using pandoc fenced divs, you can use the following sintax to render a center-aligned or right-aligned text both in odt/docx conversion and in html preview
+
+```markdown
+::: right
+\                                                  this text is right-aligned
+:::
+
+::: center
+\                                 centered!
+:::
+```
+but to make it work with docx/odt you need to define "center" and "right" custom styles in your reference file. Moreover, to make it work with odt, you need at least pandoc v2.10, which supports custom styles also in odt.
+
+Note that center/right-aligning the text in the markdown source is optional (just for better readability); if you want to do that, you *must* begin each line with `\`.
 
 ## Convert to HTML snippets
 
@@ -64,6 +80,5 @@ While HTML does not require a template, a template is provided in [/templates](t
 
 ## TODO
 
-- convert to pdf (via libreoffice)
 - add support for win/mac
 - write better documentation :)

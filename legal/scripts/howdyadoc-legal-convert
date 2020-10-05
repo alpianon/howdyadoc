@@ -40,7 +40,7 @@ if [[ "$EXTENSION" == "odt" ]]; then
 fi
 
 
-CMD=$CMD" | pandoc -f markdown --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua --lua-filter=pagebreak.lua -o \"$OUTPUT_FILE\""
+CMD=$CMD" | pandoc -f markdown --lua-filter=crossref-ordered-list.lua --lua-filter=secgroups.lua --filter=pandoc-crossref --lua-filter=inline-headers.lua --lua-filter=pagebreak.lua --lua-filter=smartdivs.lua -o \"$OUTPUT_FILE\""
 
 if [[ ! -z "$REFERENCE_DOC" ]]; then
 
