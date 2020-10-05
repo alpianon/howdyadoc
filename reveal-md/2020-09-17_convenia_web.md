@@ -8,7 +8,7 @@ laguage: it
 ---
 
 
-## La protezione delle opere dell’ingegno prodotte e pubblicate sul web
+## I contenuti pubblicati on-line e le tecniche di tutela
 
 Avv. Carlo Piana
 
