@@ -6,7 +6,7 @@
   12.5%,
   8%;}
 
-div.reveal::after {content: "©2020 Carlo Piana - Array -  some rights reserved";
+div.reveal::after {content: "©2020 Carlo Piana, Alberto Pianon - Array -  some rights reserved";
   display: block;
   font-size: 0.4em !important;
   position: absolute;
