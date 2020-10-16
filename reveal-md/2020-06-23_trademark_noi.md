@@ -1,8 +1,8 @@
 ---
 title: "Marchi e contributi in progetti open source"
-template: assets/theme/array_white.html
+template: assets/theme/un.html
 preprocessor: assets/js/frag-image.js
-css: assets/theme/custom_noi.css
+css: assets/theme/custom_eurac.css
 verticalSeparator: ^----
 language: it
 ---

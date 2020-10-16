@@ -330,8 +330,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-height: 60%;
-  max-width: 95%;
-  max-height: 95%;
   background: none;
   box-shadow: none;
   border: 0px; }
@@ -364,6 +362,34 @@ body {
 .fa-strong {
   color: #5b92e5;
   font-weight: bold; }
+
+.reveal .slides section .fragment.highlight-bold {
+  opacity: 1;
+  visibility: inherit; }
+
+.reveal .slides section .fragment.highlight-bold.visible {
+  color: #5b92e5; }
+
+.reveal .slides section .fragment.highlight-current-bold.current-fragment {
+  color: #5b92e5; }
+
+#footer-left::after {
+  content: "change footer in custom CSS | #footer-left::after "; }
+
+#footer-left {
+  font-size: 0.3em !important;
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+  /* position: absolute;
+    bottom: -2em; */
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: unset;
+  font-style: unset;
+  color: #733; }
 
 .slide-background {
   background-image: url(../img/until-logo.svg);
