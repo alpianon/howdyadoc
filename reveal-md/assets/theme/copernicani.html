@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>{{{title}}}</title>
@@ -13,11 +11,11 @@
     <meta property="og:image" content="{{{absoluteUrl}}}/featured-slide.jpg" />
     <meta property="og:url" content="{{{absoluteUrl}}}" />
     {{/absoluteUrl}}
-    <link rel="stylesheet" href="{{{base}}}/css/reveal.css" />
+    <link rel="shortcut icon" href="{{{base}}}/favicon.ico"/>
+    <link rel="stylesheet" href="{{{base}}}/dist/reveal.css" />
     <link rel="stylesheet" href="assets/theme/copernicani.css" id="theme" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="{{{base}}}{{{highlightThemeUrl}}}" />
-    <link rel="stylesheet" href="{{{base}}}/css/print/{{#print}}pdf{{/print}}{{^print}}paper{{/print}}.css" type="text/css" media="print" />
+        <link rel="stylesheet" href="{{{base}}}{{{highlightThemeUrl}}}" />
     {{#cssPaths}}
     <link rel="stylesheet" href="{{{base}}}/{{{.}}}" />
     {{/cssPaths}}
@@ -33,8 +31,13 @@
       <div class="slides">{{{slides}}}</div>
     </div>
 
-    <script src="{{{base}}}/js/reveal.js"></script>
+    <script src="{{{base}}}/dist/reveal.js"></script>
 
+    <script src="{{{base}}}/plugin/markdown/markdown.js"></script>
+    <script src="{{{base}}}/plugin/highlight/highlight.js"></script>
+    <script src="{{{base}}}/plugin/zoom/zoom.js"></script>
+    <script src="{{{base}}}/plugin/notes/notes.js"></script>
+    <script src="{{{base}}}/plugin/math/math.js"></script>
     <script>
       function extend() {
         var target = {};
@@ -49,38 +52,31 @@
         return target;
       }
 
-      // Optional libraries used to extend on reveal.js
-      var deps = [
-        { src: '{{{base}}}/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: '{{{base}}}/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: '{{{base}}}/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: '{{{base}}}/plugin/zoom-js/zoom.js', async: true },
-        { src: '{{{base}}}/plugin/notes/notes.js', async: true },
-        { src: '{{{base}}}/plugin/math/math.js', async: true }
-      ];
-
       // default options to init reveal.js
       var defaultOptions = {
         controls: true,
         progress: true,
         history: true,
         center: true,
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
-        pdfSeparateFragments: false,
-        // width: 1200,
-        // height: 1024,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
         margin: 0.1,
-        minScale: 0.2,
+        minScale: 0.3,
         maxScale: 3,
         markdown: {
-					smartypants: true, // converts quotations and stuff
-					smartLists: true
+          smartypants: true,
+          smartLists: true
         },
-        dependencies: deps
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
       };
 
       // options from URL query string
-      var queryOptions = Reveal.getQueryHash() || {};
+      var queryOptions = Reveal().getQueryHash() || {};
 
       var options = extend(defaultOptions, {{{revealOptionsStr}}}, queryOptions);
     </script>
