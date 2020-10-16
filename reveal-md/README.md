@@ -228,5 +228,5 @@ The command line is
 
 ```shell
 reveal-md --preprocessor assets/js/frag-image.js \
-namefile.md --print-slides [--prit-size arguments]
+namefile.md --print [--prit-size arguments]
 ```
