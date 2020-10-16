@@ -85,7 +85,7 @@ So you can have
 
 ```
 - <!--frag index 2 --> Some text appearing after
-- <!--frag index 2 --> Some text appearing earlier
+- <!--frag index 1 --> Some text appearing earlier
 
 ```
 Mind that index must *always be the last parameter*
@@ -228,5 +228,5 @@ The command line is
 
 ```shell
 reveal-md --preprocessor assets/js/frag-image.js \
-namefile.md --print [--prit-size arguments]
+namefile.md --print namefile.pdf [--print-size arguments] 
 ```
