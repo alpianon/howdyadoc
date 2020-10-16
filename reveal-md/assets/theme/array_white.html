@@ -38,6 +38,7 @@
     <script src="{{{base}}}/plugin/zoom/zoom.js"></script>
     <script src="{{{base}}}/plugin/notes/notes.js"></script>
     <script src="{{{base}}}/plugin/math/math.js"></script>
+
     <script>
       function extend() {
         var target = {};
@@ -58,6 +59,7 @@
         progress: true,
         history: true,
         center: true,
+        pdfSeparateFragments: false,
         transition: 'default', // none/fade/slide/convex/concave/zoom
         margin: 0.1,
         minScale: 0.3,
@@ -88,5 +90,28 @@
     <script>
       Reveal.initialize(options);
     </script>
+
+<!-- This adds a footer: used to include a pseudo-element with copyright text in custom CSS -->
+    <div id="hidden" style="display:none;">
+    <div id="header">
+        <div id="footer-left"></div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+        Reveal.addEventListener( 'ready', function( event ) {
+            $('.slide-background').append(header);
+        });
+    }
+    else {
+        $('div.reveal').append(header);
+   }
+</script>
+
   </body>
 </html>

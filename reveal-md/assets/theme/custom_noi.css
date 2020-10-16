@@ -6,16 +6,60 @@
   12.5%,
   8%;}
 
+<<<<<<< ours:reveal-md/assets/theme/custom_noi.css
 div.reveal::after {content: "©2020 Carlo Piana, Alberto Pianon - Array -  some rights reserved";
   display: block;
   font-size: 0.4em !important;
   position: absolute;
   bottom: 8px;
+=======
+#footer-left::after {content: "©2020 Carlo Piana, Alberto Pianon - Array -  CONFIDENTIAL";
+/* div.reveal::after {content: "©2020 Carlo Piana, Alberto Pianon - Array -  CONFIDENTIAL"; */
+  /* display: block;
+  font-size: 0.3em !important;
+  position: absolute;
+  bottom: -2em;
+>>>>>>> theirs:reveal-md/assets/theme/custom_noi_confidential.css
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-family: unset;
   font-style: unset;
+<<<<<<< ours:reveal-md/assets/theme/custom_noi.css
   color: #733;
 }
+=======
+  color: #733; */
+} */
+
+    /* 1. Style header/footer <div> so they are positioned as desired. */
+    #header-left {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    #header-right {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    #footer-left {
+      font-size: 0.3em !important;
+
+        position: absolute;
+        bottom: 1%;
+        left: 0%;
+        /* position: absolute;
+        bottom: -2em; */
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: unset;
+        font-style: unset;
+        color: #733;
+    }
+
+h3 {font-size: 1.2em !important;}
+>>>>>>> theirs:reveal-md/assets/theme/custom_noi_confidential.css
