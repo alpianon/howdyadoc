@@ -1,3 +1,10 @@
+# WARNING!
+
+This repo has been archived, and it is here only for hystorical purposes.
+
+You may find the new howdyadoc repo at [https://gitlab.com/howdyadoc/howdyadoc](https://gitlab.com/howdyadoc/howdyadoc)
+
+
 # Howdyadoc
 
 This project stems from the need to **standardize and simplify the use of document editing toolchains based on plain text editors, markdown language and pandoc**. 
